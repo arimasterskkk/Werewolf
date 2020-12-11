@@ -1,0 +1,4556 @@
+
+<strings>
+<!--
+  Traduzido por @DanDanDanDanDanDanDan em junho de 2020. Em caso de erros, entre em contato. Atualizado para Percy Jackson Por: @AriForWorld em:09/12/2020
+
+  
+-->
+<language name="Percy Jackson (Brasil)" base="Português" variant="Percy Jackson" owner="AriForWorld" code="pt-BR"/>
+<string key="NotInGame" deprecated="true">
+<value>Nenhuma missão em andamento...</value>
+</string>
+<string key="PlayerStartedGame" isgif="true">
+<!--   0 - Player name 
+   -->
+<value>
+{0} iniciou uma nova missão! Aperte o botão para se juntar... e provavelmente ir para o mundo inferior :v
+</value>
+<value>
+Uma nova missão foi iniciada por {0}! Clique no botão para ser devorado(a)!
+</value>
+</string>
+<string key="PlayerStartedChaosGame" isgif="true">
+<!--   0 - Player name 
+   -->
+<value>
+{0} endoidou e começou uma missão caótica. Aperte o botão para começar a aventura... e provavelmente ir conhecer Hades :P
+</value>
+<value>
+{0} distribuiu as armas no meio do caos! Use o botão para entrar nessa loucura!
+</value>
+</string>
+<string key="NoJoinGameRunning" deprecated="true">
+<value>Você não pode entrar agora! A missão já começou.</value>
+</string>
+<string key="MinuteLeftToJoin">
+<value>1 minuto restante para apertar o botão!</value>
+</string>
+<string key="SecondsLeftToJoin">
+<!--   0 - remaining seconds (number) 
+   -->
+<value>{0} segundos restando para apertar o botão!</value>
+</string>
+<string key="NotEnoughPlayers">
+<value>
+Quantidade mínima de campistas não foi atingida, cancelando a missão!
+</value>
+</string>
+<string key="StartingGameWait">
+<value>
+A missão está iniciando, por favor aguarde enquanto eu crio a estratégia para a equipe.
+</value>
+</string>
+<string key="BannedForExploit" deprecated="true">
+<!--   0 - Player name 
+   -->
+<value>
+{0} foi banido por tentar explorar. (Nenhum nome começando com /)
+</value>
+</string>
+<string key="ChangeNameToJoin">
+<!--   0 - Player name 
+   -->
+<value>
+{0}, mude seu nome para entrar na missão, por favor
+</value>
+</string>
+<string key="PlayerLimitReached">
+<value>
+Sinto muito, o número máximo de meio-sangues foi atingido!!
+</value>
+</string>
+<string key="PlayerJoined">
+<!--   0 - Player name 
+   -->
+<!--   1 - current players 
+   -->
+<!--   2 - Minimum players 
+   -->
+<!--   3 - Maximum players 
+   -->
+<value>{{0} entrou. {1} campistas, {2} mínimo, {3} máximo</value>
+</string>
+<string key="PMTheBot">
+<!--   0 - Player name 
+   -->
+<!--   1 - bot username 
+   -->
+<value>
+{0} me envie uma mensagem no privado {1} e clique start, ou não poderá jogar.
+</value>
+</string>
+<string key="DeadFlee">
+<value>
+MORTO NÃO FOGE!!! Senta o rabo perto de Hades e sossega... Que raiva!
+</value>
+</string>
+<string key="Flee">
+<!--   0 - Player name 
+   -->
+<value>{0} fugiu porque tem medo do canibal!</value>
+</string>
+<string key="PlayerRoleWas">
+<!--   0 - Player name 
+   -->
+<!--   1 - Player role 
+   -->
+<value>{0} era {1}</value>
+</string>
+<string key="CountPlayersRemain">
+<!--   0 - Number of players 
+   -->
+<value>{0} jogadores restantes.</value>
+</string>
+<string key="DidntAsk" deprecated="true">
+<value>Ei, te perguntei alguma coisa? Acho que não!</value>
+</string>
+<string key="NotPlaying">
+<value>Você não parece estar na missão...</value>
+</string>
+<string key="NoPlayerName">
+<value>
+Não consigo encontrar um campista com esse nome nos registros
+</value>
+</string>
+<string key="AnswerNonValid" deprecated="true">
+<value>Essa resposta não é válida!</value>
+</string>
+<string key="WolfVotedKill">
+<!--   0 - wolf teammate name 
+   -->
+<!--   1 - Victim name 
+   -->
+<value>{0} votou para devorar {1}.</value>
+</string>
+<string key="PlayerVotedLynch">
+<!--   0 - Voter name 
+   -->
+<!--   1 - Target name 
+   -->
+<value>{0} votou para expulsar {1} da missão.</value>
+</string>
+<string key="IdleKill">
+<!--   0 - player name 
+   -->
+<!--   1 - player role 
+   -->
+<value>
+{0} não votou por 2 noites seguidas. As pessoas começavam a se perguntar onde (0) estaria, mas Caronte já estava transportando {0} para o mundo inferior. {1}
+</value>
+</string>
+<string key="TraitorTurnWolf">
+<value>Maldita Névoa!!! Agora você é lestrigão...</value>
+</string>
+<string key="ChoiceAccepted">
+<value>Opção aceita.</value>
+</string>
+<string key="BeholderSeer">
+<!--   0 - seer name 
+   -->
+<value>\n{0} é o Oráculo de Delfos 👳.</value>
+</string>
+<string key="ApprenticeNowSeer">
+<!--   0 - seer name 
+   -->
+<value>
+{0} era o Oráculo de Delfos 👳, mas morreu. Depois de tanto tempo treinando como Rachel, finalmente chegou o momento de você se assumir como Oráculo de Delfos, pelo bem do acampamento.
+</value>
+</string>
+<string key="BeholderNewSeer">
+<!--   0 - apprentice name 
+   -->
+<!--   1 - seer name 
+   -->
+<value>
+{0} tomou o lugar de {1} como Oráculo de Delfos 👳.
+</value>
+</string>
+<string key="SeerSees">
+<!--   0 - player name 
+   -->
+<!--   1 - player role 
+   -->
+<value>Você vê que {0} é {1}!</value>
+</string>
+<string key="AskLynch">
+<value>Quem você gostaria de expulsar da missão?</value>
+</string>
+<string key="AskDetect">
+<value>Quem você gostaria de espionar?</value>
+</string>
+<string key="AskShoot">
+<!--   0 - bullet count 
+   -->
+<value>
+Em quem você gostaria de atirar? {0} flecha(s) restantes.
+</value>
+</string>
+<string key="AskVisit">
+<value>A quem você gostaria de fazer uma visitinha?</value>
+</string>
+<string key="AskSee">
+<value>Quem você vai ver?</value>
+</string>
+<string key="AskGuard">
+<value>Quem você gostaria de proteger?</value>
+</string>
+<string key="AskEat">
+<value>Quem você gostaria de devorar?</value>
+</string>
+<string key="AskHunt">
+<value>
+Quem você gostaria de mandar de volta ao mundo inferior?
+</value>
+</string>
+<string key="AskRoleModel">
+<value>Em quem você irá se espelhar?</value>
+</string>
+<string key="AskConvert">
+<value>
+Quem você gostaria de tornar parte dos Comedores de Lótus?
+</value>
+</string>
+<string key="DiscussWith">
+<!--  Leave the leading spaces here please
+   -->
+<!--   0 - teammate names 
+   -->
+<value>Lembre-se de falar com {0}</value>
+</string>
+<string key="And">
+<!--
+ this is paired with "DiscussWith".  again, leave the spaces!
+  
+-->
+<value>e</value>
+</string>
+<string key="RoleInfoCursed">
+<value>
+Você foi Amaldiçoado. Por enquanto você é um campista, mas se você por atacado pelos lestrigões, você se tornará um lestrigão também.
+</value>
+</string>
+<string key="RoleInfoDetective">
+<value>
+Você é a Annabeth, e joga pelo Acampamento. Durante o dia, você pode usar seu boné da invisibilidade e escolher uma pessoa para espionar e descobrir seu papel. No entanto, ao fazer isso, você pode ser descoberto pelos lestrigões!
+</value>
+</string>
+<string key="RoleInfoDrunk">
+<value>
+Parabéns, você é Pólux! Como filho de Dioniso, você está sempre bêbado. Se os lestrigões te comerem, eles vão ficar de ressaca e não vão conseguir atacar ninguém na noite seguinte!
+</value>
+</string>
+<string key="RoleInfoGuardianAngel">
+<value>
+Você é Thalia Grace, e seu papel é proteger a Aldeia. Durante a noite, você pode escolher alguém para proteger. Porém, se você escolher um lobo, pode acontecer o pior.
+</value>
+</string>
+<string key="RoleInfoGunner">
+<value>
+Bang bang, você é a Clarissa LaRue. Você possui 2 tiros para ajudar o Acampamento. Durante o dia, você pode atirar em alguém. Todo mundo ouvirá os tiros e saberão que você é Clarissa.
+</value>
+</string>
+<string key="RoleInfoHarlot">
+<value>
+Você é a Piper McLean, a filha de Afrodite. Seu time é a aldeia. Durante a noite, você poderá escolher alguém para fazer uma visitinha, e descobrir se a pessoa é ou não um lestrigão. Porém, se você visitar um lestrigão, ou alguém que está sendo atacado(a) pelos lobos, você irá morrer. Se você visitar alguém e os lestrigão tentarem te matar na sua casa, você irá sobreviver (já que não estava lá).
+</value>
+</string>
+<string key="RoleInfoTraitor">
+<value>
+Traíííííra!! Você é o Luke Castellán! Por enquanto, você é um campista, mas assim que todos os lestrigões estiverem mortos, você se transformará em lestrigão. Se o Oráculo de Delfos vir você, você pode ou não ser identificado(a) por ela como um lestrigão.
+</value>
+</string>
+<string key="RoleInfoWolf">
+<value>
+VOCÊ É UM LESTRIGÃO!! Bom pra você! Durante a noite você pode escolher alguém para matar, junto com seu time, os lestrigões.
+</value>
+</string>
+<string key="RoleInfoSeer">
+<value>
+Você é o Oráculo de Delfos, seu papel é guiar a Aldeia na empreitada contra os lestrigões. Durante a noite, você pode escolher alguém para 'ver', e ter seu papel revelado a você. Se revele com cautela, porque os lestrigões estão loucos pra devorar você!
+</value>
+</string>
+<string key="RoleInfoVillager">
+<value>
+Você é um simples campista, condenado a passar seus dias arando o campo esperando para ser devorado pelos lestrigões, seus inimigos. Uma vez por dia você pode votar em alguém pra expulsar da missão, use seu voto com sabedoria!
+</value>
+</string>
+<string key="RoleInfoTanner">
+<value>
+Você é o Nico Di Angelo, seu time é você mesmo! Se você for expulso da missão, você ganha automaticamente, sozinho. Seu egoista!
+</value>
+</string>
+<string key="RoleInfoWildChild">
+<value>
+Você é a Criança Selvagem! Escolha alguém para você se 'afeiçoar' - se ele(a) morrer, você se transformará em lestrigão.
+</value>
+</string>
+<string key="RoleInfoBeholder">
+<value>
+Você é o Quiron, você saberá quem é o verdadeiro Oráculo de Delfos (e não o trouxa). Use isso para ajudar seu time, o Acampamento!
+</value>
+</string>
+<string key="RoleInfoApprenticeSeer">
+<value>
+Você é Aprendiz de Vidente 🙇, e joga pela Aldeia. Você não tem permissão para usar a bola de cristal... Ainda. Vidente 👳 morreu, sua bola acendeu.
+</value>
+</string>
+<string key="RoleInfoCultist">
+<value>
+Você é Integrante da Seita 👤. Durante a noite, você poderá escolher alguém para converter à Seita. Se todos os jogadores restantes ao final do jogo forem Integrantes, a Seita vence!
+</value>
+</string>
+<string key="RoleInfoCultistHunter">
+<value>
+Os Comedores de Lótus estão tentando converter todo mundo, e você, Percy Jackson 💂, deve proteger o Acampamento! Durante a noite você poderá escolher alguém para mandar para o mundo inferior. Se for um comedor de lótus, a pessoa morre. Caso os Comedores de Lótus tente te converter, o membro mais recente morre. Mas cuidado: se você tentar inquirir uma Empousa, quem morre é você!
+</value>
+</string>
+<string key="LynchTime">
+<!--   0 - number of seconds 
+   -->
+<value>
+A noite se aproxima e os campistas se reúnem para decidir quem expulsar hoje... Todo mundo tem agora {0} segundos para votar!
+</value>
+</string>
+<string key="DayTime">
+<!--   0 - number of seconds 
+   -->
+<value>
+O sol começa a surgir. Vocês têm {0} segundos para fazer suas ações ou discutir.
+</value>
+</string>
+<string key="NightTime">
+<!--   0 - number of seconds 
+   -->
+<value>
+Caiu a noite. Todos vão dormir bastante cansados após mais um dia bem estressante. Campistas: vocês têm {0} segundos para usar suas ações!
+</value>
+</string>
+<string key="LynchKill">
+<!--   0 - player name 
+   -->
+<!--   1 - player role 
+   -->
+<value>
+O Acampameto votou, em meio a dúvidas e suspeitas, e enforcou {0}. {1}
+</value>
+</string>
+<string key="LynchTie">
+<value>
+Incapazes de chegar a uma decisão final sobre quem expulsar, a multidão revoltada retorna para seus chalés com seus escudos e espadas, frustrados...
+</value>
+</string>
+<string key="NoLynchVotes">
+<value>
+Alguma coisa está cheirando mal, ninguém votou! Ninguém será expulso hoje...
+</value>
+</string>
+<string key="DetectiveEaten">
+<!--   0 - victim name 
+   -->
+<value>
+Os campistas se reúnem durante a manhã, mas ninguém consegue achar {0} entre eles. Eles correm para seu chalé e encontram {0} despedaçado(a), com um boné dos Yankees enfiado em sua goela. {0} Era a Annabeth!
+</value>
+</string>
+<string key="GuardianEaten">
+<!--   0 - victim name 
+   -->
+<value>
+A manhã chega e, para a surpresa de todos, empalado no topo da cruz da igreja estava o corpo de {0}, Thalia Grace, sem vida.
+</value>
+</string>
+<string key="GunnerEaten">
+<!--   0 - victim name 
+   -->
+<value>
+Todos saem de casa e então encontram pedaços de uma espingarda despedaçada... em seguida pernas... então dedos... e flutuando no chafariz da praça, o corpo de {0}, morto(a) por lestrigões. Vocês perderam a Clarisse.
+</value>
+</string>
+<string key="SeerEaten">
+<!--   0 - victim name 
+   -->
+<value>
+Os campistas acordam ao amanhecer e encontram pedaços do que um dia foi {0} no sóton da casa grande, com uma fumaça verde se esvaindo de sua boca. O Oráculo de Delfos está morto.
+</value>
+</string>
+<string key="DrunkEaten">
+<!--   0 - victim name 
+   -->
+<value>
+NOMNOMNOMNOM Todos acordam com um forte cheiro de álcool e madeira em chamas... O chalé de Dioniso está pegando fogo!!!! Após apagar o incêndio, os campistas encontram um {0} em pedacinhos... Claramente obra de lestrigões
+</value>
+</string>
+<string key="FoolEaten">
+<!--   0 - victim name 
+   -->
+<value>
+NOMNOMNOMNOM À medida que o sol se levanta sobre o Acampamento, os campistas encontram {0} deitado(a) no porão da casa grande, mas com cartas de.... Super Trunfo da Pixar??? KKKKKKKKK QUE TROUXA!!!
+</value>
+</string>
+<string key="DefaultEaten">
+<!--   0 - victim name 
+   -->
+<!--   1 - victim role 
+   -->
+<value>
+À medida que todos se levantam durante a manhã, sentem um cheiro horrível. Eles seguem o cheiro para encontrar {0} esquartejado(a) na frente do Arsenal. NOMNOMNOMNOM.\n{1}
+</value>
+</string>
+<string key="HunterKilledCultist">
+<!--   0 - victim name 
+   -->
+<value>
+Um enorme fedor está sendo exalado pelo chalé de {0}... Os campistas decidem então entrar lá e encontram o presunto, seus dentes espalhados no chão e agulhas embaixo das unhas deixam bem claro o que houve... Um dos Comedores de Lótus foi torturado e morto pelo Percy Jackson!
+</value>
+</string>
+<string key="NoAttack">
+<value>
+Os campistas se juntam ao redor da fogueira durante a manhã e dão um suspiro de alívio - parece que não houve nenhum ataque na última noite.
+</value>
+</string>
+<string key="CursedBitten">
+<value>
+Você foi atacado(a) pelos lestrigões. Por estar amaldiçoado(a), você se tornou um lestrigão!
+</value>
+</string>
+<string key="WolfTeam">
+<!--   0 - teammate names 
+   -->
+<value>Sua alcateia: {0}</value>
+</string>
+<string key="CursedBittenToWolves">
+<!--   0 - victim name 
+   -->
+<value>
+{0} foi mordido(a).... Mas estava amaldiçoado(a) e se tornou um lestrigão! Parabéns pelo seu novo companheiro!!
+</value>
+</string>
+<string key="WolvesEatYou" isgif="true">
+<value>Ah não! Os lestrigões te devoraram. NOMNOMNOMNOM</value>
+</string>
+<string key="WolvesEatDrunk">
+<!--   0 - victim name 
+   -->
+<value>
+Ah não! {0} estava bêbado(a)! Agora você está bêbado(a) e não poderá atacar na próxima noite...
+</value>
+</string>
+<string key="GuardWolf">
+<value>
+Você tentou proteger um lestrigão. Infelizmente, ele se interessou mais na sua carne que na sua proteção!
+</value>
+</string>
+<string key="GuardSaved">
+<!--   0 - saved player name 
+   -->
+<value>Você salvou a vida de {0}!</value>
+</string>
+<string key="GuardNoAttack">
+<!--   0 - player name 
+   -->
+<value>
+Na casa de {0} estava tudo tranquilo. Você não foi útil dessa vez.
+</value>
+</string>
+<string key="GuardEmptyHouse">
+<!--   0 - player name 
+   -->
+<value>
+Você foi proteger {0}, mas ele(a) foi dar um passeio noturno!
+</value>
+</string>
+<string key="GuardSavedYou">
+<value>
+A valente Thalia Grace estava cuidando de você na noite passada e espantou os lestrigões! Que Coragem!!
+</value>
+</string>
+<string key="HarlotEaten">
+<!--   0 - player name 
+   -->
+<value>
+A Piper McLean escolheu um péssimo dia para tirar folga e ficar em casa. {0} foi devorado(a) pelos lestrigões!
+</value>
+</string>
+<string key="HarlotNotHome">
+<!--   0 - player name 
+   -->
+<value>Ficou sem jantar hoje... {0} não estava em casa...</value>
+</string>
+<string key="HarlotFuckWolf">
+<!--   0 - player name 
+   -->
+<value>
+Você entrou na casa de {0} para tentar usar seu charme contra ele, mas descobriu tarde demais que ele(a) era um lestrigão. Você está morto(a).
+</value>
+</string>
+<string key="HarlotFuckedWolfPublic">
+<!--   0 - player name 
+   -->
+<value>
+{0} dormiu na casa errada noite passada! Seu corpo, antes perfeito e charmoso, foi encontrado pregado cruelmente de cabeça para baixo na parede de escalada... que triste :(
+</value>
+</string>
+<string key="HarlotFuckedVictimPublic">
+<!--   0 - harlot name 
+   -->
+<!--   1 - victim name 
+   -->
+<value>
+{0} foi dormir na casa de {1}, pronto(a) para ter um pouco de diversão e aliviar a tensão. Entretanto, ele(a) encontrou um lestrigão devorando {1}! O lestrigão, que ainda não estava satisfeito, olhou para {0} e... {0} está morta.
+</value>
+</string>
+<string key="HarlotVisitNonWolf">
+<!--   0 - target name 
+   -->
+<value>
+Você percebe que {0} não é um lestrigão, já que vocês flertaram a noite toda!
+</value>
+</string>
+<string key="HarlotVisitYou">
+<value>
+No meio da noite alguém bate na sua porta e diz que queria uma companhia. Estava muito escuro para você ver quem era, mas você estava solitário(a) e quis ficar flertando. Assim, topou, e no fim a pessoa acabou saindo de fininho enquanto você dormia.
+</value>
+</string>
+<string key="DetectiveCaught">
+<!--   0 - detective name 
+   -->
+<value>
+Você flagrou {0} xeretando por aí! Ele(a) é a Annabeth 🕵!
+</value>
+</string>
+<string key="DetectiveSnoop">
+<!--   0 - target name 
+   -->
+<!--   1 - target role 
+   -->
+<value>Sua investigação provou que {0} é {1}.</value>
+</string>
+<string key="HarlotShot">
+<!--   0 - gunner's name 
+   -->
+<!--   1 - Harlot's name 
+   -->
+<value>
+Parece que {0} não gostou da noite com a Piper! A Clarisse ficou louca e se vingou. {1} está morto(a)...
+</value>
+</string>
+<string key="DefaultShot">
+<!--   0 - Gunner's name 
+   -->
+<!--   1 - target name 
+   -->
+<!--   2 - Target's revealed name ( Target was a role) 
+   -->
+<value>
+De repente, um tiro é disparado. Os aldeões se viram para ver {0} de pé em cima do corpo de {1}, com a arma ainda apontada para a cabeça e os miolos espalhados. {2}
+</value>
+</string>
+<string key="WolfWins" isgif="true">
+<value>O lestrigão venceu!</value>
+</string>
+<string key="WolvesWin" isgif="true">
+<value>Os lestrigões venceram!</value>
+</string>
+<string key="VillageWins" isgif="true">
+<value>
+Os campistas venceram! Todos os monstros morreram....!
+</value>
+</string>
+<string key="TannerWins" isgif="true">
+<value>
+Ah não! Vocês lincharam o Nico Di Angelo! Ele venceu o jogo, SEUS FILHOS DE HERA!
+</value>
+</string>
+<string key="RemainingPlayersEnd">
+<value>Jogadores restantes, papéis e lado:</value>
+</string>
+<string key="CultistVotedConvert">
+<!--   0 - Voter's name 
+   -->
+<!--   1 - target name 
+   -->
+<value>{0} votou para converter {1}</value>
+</string>
+<string key="CultConvertCultHunter">
+<!--   0 - Yougest Cultist (killed)'s name' 
+   -->
+<!--   1 - CultHunter's name 
+   -->
+<value>
+{0} foi enviado(a) para fazer o trabalho sujo e converter {1}... Entretanto, ele era o Percy Jackson, e tinha uma câmara de tortura especial pra os Comedores de Lótus! {0} está morto(a)!
+</value>
+</string>
+<string key="CultHunterKilledCultVisit">
+<!--   0 - Youngest Cultist's name 
+   -->
+<!--   1 - Number of cultists left 
+   -->
+<value>
+{0} foi à sua casa na noite passada, pronto(a) para te converter.... Mas você tinha uma câmara de tortura só pra esse tipo de gente. Um membro dos Comedores de Lótus está morto... {1} restante(s)!
+</value>
+</string>
+<string key="CultConvertYou">
+<value>
+Você foi convertido(a) e agora é um dos Comedores de Lótus. Durante a noite, você poderá tentar converter outros jogadores.
+</value>
+</string>
+<string key="CultTeam">
+<!--   0 - Number of cultists 
+   -->
+<value>Integrantes da Seita: {0}</value>
+</string>
+<string key="CultJoin">
+<!--   0 - new cultist's name 
+   -->
+<value>{0} se juntou aos Comedores de Lótus!</value>
+</string>
+<string key="CultVisitEmpty">
+<!--   0 - Newest cultist's name 
+   -->
+<!--   1 - target name 
+   -->
+<value>
+{0} foi enviado(a) para fazer o trabalho sujo e converter {1}... Mas ninguém estava em casa!
+</value>
+</string>
+<string key="CultWins" isgif="true">
+<value>
+Todos os lestrigões morreram e as únicas pessoas sobreviventes pertencem aos Comedores de Lótus.. Os Comedores de Lótus venceu, Mas parece que essa partida acabou de começar!
+</value>
+</string>
+<string key="HunterVisitDead">
+<!--   0 - target name 
+   -->
+<value>
+Você foi mandar {0} para o mundo inferior, mas chegando lá só encontrou seu corpo sem vida!
+</value>
+</string>
+<string key="HunterFindCultist">
+<!--   0 - target name 
+   -->
+<value>
+Você invade a casa de {0} e vê as marcas dos Comedores de Lótus nas paredes, você sabe o que fazer... Depois das torturas, ele se confessa, e você sabe muito bem como expurgar os pecados desse tipo: Com a morte!
+</value>
+</string>
+<string key="HunterFailedToFind">
+<!--   0 - target name 
+   -->
+<value>
+Você invade a casa de {0} mas não há nenhum sinal dos Comedores de Lótus. Ele(a) não faz parte... Ainda...
+</value>
+</string>
+<string key="WildChildToWolves">
+<!--   0 - Werechild's name 
+   -->
+<value>
+O grande exemplo de vida de {0} acabou de morrer! Em seu ataque de fúria, ele(a) se tornou um lestrigão!
+</value>
+</string>
+<string key="WildChildTransform">
+<!--   0 - role's name 
+   -->
+<!--   0 - teamate's names 
+   -->
+<value>
+{0} foi morto(a)! Num ataque de fúria, você se torna um lestrigão! Seus novos companheiros são: {1}
+</value>
+</string>
+<!--
+  Villager, Drunk, Harlot, Seer, Traitor, GuardianAngel, Detective, Wolf, Cursed, Gunner, Tanner, Fool, WildChild, Beholder, ApprenticeSeer, Cultist, CultistHunter
+  
+-->
+<!--
+  Do NOT change the emoji's, even if you are translating werewolf in a non-standard mode! 
+  
+-->
+<string key="Villager">
+<value>Campista 👱</value>
+</string>
+<string key="Drunk">
+<value>Pólux 🍻</value>
+</string>
+<string key="Harlot">
+<value>Piper McLean 💋</value>
+</string>
+<string key="Seer">
+<value>Oráculo de Delfos 👳</value>
+</string>
+<string key="Traitor">
+<value>Luke Castellán 🖕</value>
+</string>
+<string key="GuardianAngel">
+<value>Thalia Grace 👼</value>
+</string>
+<string key="Detective">
+<value>Annabeth 🕵</value>
+</string>
+<string key="Wolf">
+<value>Lestrigão 🐺</value>
+</string>
+<string key="Cursed">
+<value>Amaldiçoado 😾</value>
+</string>
+<string key="Gunner">
+<value>Clarisse 🔫</value>
+</string>
+<string key="Tanner">
+<value>Nico Di Angelo 👺</value>
+</string>
+<string key="Fool">
+<value>Octavian 🃏</value>
+</string>
+<string key="WildChild">
+<value>Criança Rebelde 👶</value>
+</string>
+<string key="Beholder">
+<value>Confidente 👁</value>
+</string>
+<string key="ApprenticeSeer">
+<value>Rachel Elizabeth Dare 🙇</value>
+</string>
+<string key="Cultist">
+<value>Comedor de Lótus 👤</value>
+</string>
+<string key="CultistHunter">
+<value>Percy Jackson 💂</value>
+</string>
+<!--   These are for the player list 
+   -->
+<string key="RanAway">
+<value>Fugiu</value>
+</string>
+<string key="Dead">
+<value>💀 Faleceu</value>
+</string>
+<string key="Alive">
+<value>🙂 Sobrevivente</value>
+</string>
+<string key="PlayersAlive">
+<value>Jogadores vivos</value>
+</string>
+<!--   New strings 4 MAY 2016
+   -->
+<string key="Mason">
+<value>Paul Blofis 👷</value>
+</string>
+<string key="RoleInfoMason">
+<value>
+Você é Paul Blofis 👷, Padrasto de Percy e professor de inglês. Seu objetivo é ajudar o acampamento. Se houver outro Paul, você saberá quem são.
+</value>
+</string>
+<string key="MasonEaten">
+<!--   0 - dead man's name 
+   -->
+<value>
+O corpo de {0} é encontrado de manhã no templo da vila com um crânio e um livro de Shakespeare jogados sobre seu corpo. O Paul morreu!
+</value>
+</string>
+<string key="MasonTeam">
+<value>Os Paul são: {0}</value>
+</string>
+<!--   new strings May 6 2016
+   -->
+<string key="CultTargetDead">
+<!--   0 - Youngest cultists name 
+   -->
+<value>
+O membro mais recente dos Comedores de Lótus corre para a casa de {0} para fazer o trabalho sujo e convertê-lo(a), mas encontra uma bagunça, muito sangue e pedacinhos... Seu alvo virou janta!
+</value>
+</string>
+<string key="GuardBlockedWolf">
+<!--   0 - target's name 
+   -->
+<value>
+A matilha se dirige à casa de {0}, para o banquete, mas lá dá de cara com uma criatura alta, elevada e cercada por luz, armada com uma espada e uma lança. Thalia Grace sai em defesa do alvo e, após uma luta ao som dos mais variados hits de Green Day, o lado faminto sai derrotado e foge para casa.
+</value>
+</string>
+<!--   new strings May 9 2016
+   -->
+<string key="CultUnableToConvert">
+<!--   0 - newest  
+   -->
+<!--   1 - target's name 
+   -->
+<value>
+{0} foi enviado(a) para fazer o trabalho sujo, mas as crenças de {1} eram fortes de mais para serem corrompidas. :(
+</value>
+</string>
+<!--   new string May 12 2016
+   -->
+<string key="NameExists">
+<!--   0 - target's name 
+   -->
+<!--   1 - name 
+   -->
+<value>
+@{1}, um(a) campista com nome {0} já se juntou à missão. Por favor mude seu nome para poder entrar.
+</value>
+</string>
+<string key="HarlotDiscoverCult">
+<!--   0 - target's name 
+   -->
+<value>
+Você dormiu na chalé de {0} para se divertir um pouco, mas enquanto saia você notou através de uma porta semiaberta uma estranha estranha flor de lótus...
+</value>
+</string>
+<!--   new string May 13 2016
+   -->
+<string key="Was">
+<value>era</value>
+</string>
+<string key="GenericDeathNoReveal">
+<!--   0 - Dead's name 
+   -->
+<value>
+Todos acordam pela manhã, e percebe que {0} não está por ai... O acampamento foi checar o chalé de {0} e encontram apenas restos mortais de {0}.
+</value>
+<value>
+À medida que todos se levantam e saem de seus chalés durante a manhã, percebem a ausência de {0}... Quando checam seu chalé, encontram seu corpo sem vida.
+</value>
+</string>
+<string key="MasonConverted">
+<!--   0 - mason's name 
+   -->
+<value>
+Estranho O.o ... {0} não apareceu na escola hoje... O.o
+</value>
+</string>
+<!--   new string May 16 2016
+   -->
+<string key="FleeDisabled">
+<value>
+Você tenta fugir mas os rumores de que há lestrigões fizeram com que administradores fechassem as saídas para os lestrigões não fugirem! Boa sorte com isso
+</value>
+</string>
+<string key="IsDead">
+<!--   used when gunner shoots a player 
+   -->
+<value>
+foi para o mundo inferior! Tomara que tenha ido para os Campos Elíseos!
+</value>
+</string>
+<!--   MORE STRINGS May 16, 2016 
+   -->
+<string key="AdminAdded" deprecated="true">
+<!--   0 - target's name 
+   -->
+<value>
+{0} adicionado para a lista de admin. Use /config para modificar as configurações do grupo.
+</value>
+</string>
+<string key="AlreadyInGame">
+<!--   0 - target's name 
+   -->
+<value>Você já entrou em uma partida ({0})</value>
+</string>
+<string key="MultipleGames" deprecated="true">
+<value>
+Seu grupo consegue iniciar múltiplos jogos... Mortes extras.
+</value>
+</string>
+<string key="GroupQueue" deprecated="true">
+<!--   0 - target's name 
+   -->
+<!--   1 - target's name 
+   -->
+<value>
+Seu grupo está atualmente na fila. Posição: {0} / {1}
+</value>
+</string>
+<string key="MaintBreak" deprecated="true">
+<!--   0 - target's name 
+   -->
+<value>
+Desculpe, estou prestes a começar uma pausa para manutenção, você não pode começar um jogo agora.\nEsperando {0} jogo(s) para terminar...\nConsulte @werewolfdev para mais informação
+</value>
+</string>
+<string key="MaxGames" deprecated="true">
+<!--   0 - target's name 
+   -->
+<!--   1 - target's name 
+   -->
+<value>
+Desculpe, número máximo de jogos chegou ({0}). \nPosição na fila: {1} / {1}
+</value>
+</string>
+<string key="SkipQueue" deprecated="true">
+<!--   0 - target's name 
+   -->
+<value>{0} era o grupo preferido, e pulou fora da fila!</value>
+</string>
+<string key="NoGame">
+<value>
+Nenhum jogo ativo. Inicie um novo jogo com /startgame ou inicie um novo jogo no modo caos com /startchaos
+</value>
+</string>
+<string key="GroupAdminOnly">
+<value>
+Este comando é permitido somente para os administradores.
+</value>
+</string>
+<string key="ShuttingDown" deprecated="true">
+<value>
+Após este jogo, estarei me desligando para manutenção.
+</value>
+</string>
+<string key="ShuttingDownUpdate" deprecated="true">
+<value>
+Após este jogo, estarei me desligando momentaneamente para uma atualização (automático).
+</value>
+</string>
+<string key="NullIdAdmin" deprecated="true">
+<value>
+UserId era nulo. Tem certeza que você enviou isso como resposta?
+</value>
+</string>
+<string key="AlreadyAdmin" deprecated="true">
+<!--   0 - target's name 
+   -->
+<value>{0} já é um administrador!</value>
+</string>
+<string key="NotAdmin" deprecated="true">
+<!--   0 - target's name 
+   -->
+<value>{0} não é um administrador!</value>
+</string>
+<string key="AdminRemoved" deprecated="true">
+<!--   0 - target's name 
+   -->
+<value>{0} foi removido da lista de administradores.</value>
+</string>
+<string key="LanguageSet" deprecated="true">
+<!--   0 - language's name 
+   -->
+<value>Os deuses escolheram usar o modo {0}</value>
+</string>
+<string key="NoSeer">
+<value>O Oráculo de Delfos não vem!!</value>
+</string>
+<string key="TimesUp">
+<value>Tempo esgotado!</value>
+</string>
+<!--   new strings june 10 2016 
+   -->
+<string key="RoleInfoCupid">
+<value>
+Você é o Eros. Enviado ao Acampamento de fraldão, com um arco e duas flechas, você pode escolher dois jogadores que irão se amar para toda eternidade. Se um deles morrer, o outro morrerá de tristeza. Depois de unir dois amantes, você pode voltar ao seu papel como campista.
+</value>
+</string>
+<string key="RoleInfoDoppelganger">
+<value>
+Você é o Frank Zhang 🎭. Poseidon lhe deu a benção de poder se metamorfosear como seu ancestral, podendo escolher qualquer forma que quiser! Escolha uma pessoa, e quando ela morrer você assumirá seu papel no jogo.
+</value>
+</string>
+<string key="RoleInfoHunter">
+<value>
+Você é Bianca Di Angelo 🎯. Enquanto o acampamento dorme, você fica de vigília, pois sabe que é de noite que as piores coisas acontecem. Sua confiável espingarda sempre está ao seu lado, e com certeza ninguém nunca te pegará de surpresa. Quando morrer, poderá se vingar ou se defender com uma flechada!
+</value>
+</string>
+<string key="RoleInfoSerialKiller">
+<value>
+Você é a Empousa 🔪. Como todo mundo, você gosta de guardar lembrancinhas das suas melhores experiências. Ou, no caso, guardar a orelha direita das pessoas que matou. Toda noite, você pode escolher uma pessoa para adicionar à coleção.
+</value>
+</string>
+<string key="CupidChosen">
+<value>
+Como o amor é lindo! A memória de {0} nunca deixará seu coração. Seu objetivo é que os dois sobrevivam.
+</value>
+<value>
+A flecha de Eros 🏹 atingiu você! Você está loucamente apaixonado por {0}! Se seu par morrer, você morrerá também. Se um dos dois vencer, os dois vencem.
+</value>
+</string>
+<string key="HunterLynchedChoice">
+<value>
+O Acampamento vai te expulsar!! Mas você ainda tem uma oportunidade de atirar uma flecha em alguém!
+</value>
+</string>
+<string key="HunterNoChoiceLynched">
+<value>
+{0} tenta pegar seu arco, mas seus dedos cansados o deixam cair...
+</value>
+</string>
+<string key="HunterSkipChoiceLynched">
+<value>
+{0} pega seu arco, aponta para a multidão... Mas decide não atirar em ninguém antes de sair.
+</value>
+</string>
+<string key="HunterKilledFinalLynched">
+<!--   0 - hunter's name 
+   -->
+<!--   1 - target's name 
+   -->
+<!--   2 - target's role 
+   -->
+<value>
+{0} cai no chão com um ferimento na barriga, mas saca seu arco e atira na testa de {1}, que morre na hora. {2}
+</value>
+</string>
+<string key="HunterShotChoice">
+<value>
+Te feriram mortalmente! Com seu último suspiro, você pode levar alguém com você, pense rápido!
+</value>
+</string>
+<string key="HunterNoChoiceShot">
+<!--   0 - target's name 
+   -->
+<value>
+{0} cai sem vida, não podendo nem alcançar seu arco pra revidar...
+</value>
+</string>
+<string key="HunterSkipChoiceShot">
+<!--   0 - hunter's name 
+   -->
+<value>
+{0} decide não dar seu último tiro, aceitando morrer sem levar ninguém.
+</value>
+</string>
+<string key="HunterKilledFinalShot">
+<!--   0 - hunter 
+   -->
+<!--   1 - target's name 
+   -->
+<!--   2 - target's role 
+   -->
+<value>
+{0} cai no chão com um ferimento na barriga, mas saca seu arco e atira na testa de {1}, que morre na hora. {2}
+</value>
+</string>
+<string key="HunterShotWolfMulti">
+<!--   0 - target's name 
+   -->
+<value>
+O acampamento acorda e vê flechas para todo lado! A vítima dos lestrigões era Bianca Di Angelo 🎯, e leva consigo {0}, um dos lestrigões
+</value>
+</string>
+<string key="HunterShotWolf">
+<!--   0 - target's name 
+   -->
+<value>
+O corpo de {0} está jogado no meio da praça, seu corpo cheio de flechas. Foi uma péssima ideia atacar a Bianca Di Angelo 🎯 !
+</value>
+</string>
+<string key="SerialKillerKilledWolf">
+<value>
+Os Lestrigões tentaram atacar a pessoa errada noite passada! Campistas encontraram {0} ao lado da parede de escalada, sem sua pele e sua orelha direita. Alguém ganhou um casaco de peles!
+</value>
+</string>
+<string key="DefaultKilled">
+<!--   0 - target's name 
+   -->
+<!--   1 - target's role 
+   -->
+<value>
+Pareceu uma manhã normal, mas onde está {0}? O Acampamento se reúne no chalé de {0} e encontra seu corpo na cama. Quase não dá pra perceber a orelha faltando, porque seus órgãos estão espalhados pelo quarto! {1}
+</value>
+</string>
+<string key="GuardBlockedKiller">
+<!--   0 - target's name 
+   -->
+<value>
+{0} com certeza teria sido uma ótima adição à sua coleção, mas infelizmente não foi hoje que isso aconteceu. Thalia Grace 👼 barrou sua entrada na casa, e não saiu de lá nem com reza braba...
+</value>
+</string>
+<string key="CultConvertHunter">
+<!--   0 - Youngest Cultist's name 
+   -->
+<!--   1 - target's name 
+   -->
+<value>
+{0} foi enviado(a) para fazer o trabalho sujo e converter {1}... Entretanto, ele era o Percy Jackson, e tinha uma câmara de tortura especial pra os Comedores de Lótus! {0} está morto(a)!
+</value>
+</string>
+<string key="CultConvertSerialKiller">
+<!--   0 - Youngest Cultist's name 
+   -->
+<!--   1 - target's name 
+   -->
+<value>
+Os Comedores de Lótus mandaram {0} para converter {1}. Chegando lá {0} descobre que era melhor ter ficado no chalé rezando. Seu corpo é encontrado aberto na rua, mas com os orgãos revirados. {0} está morta...
+</value>
+<value>
+{0} vai a casa de {1}, e bate na porta, imediatamente é recepcionado por uma maníaca com uma faca!!! {1} crava a faca no peito de {0} e retira todos seus órgãos e orelha direita, enquanto ria! {0} está morto D:
+</value>
+</string>
+<string key="GuardKiller">
+<value>
+Você tentou proteger a pessoa errada. O Serial Killer te convida para brincar com ele, um tipo de brincadeira que você com certeza não gosta. O tipo de brincadeira que você morre no final...
+</value>
+</string>
+<string key="HarlotFuckKiller">
+<!--   0 - target's name 
+   -->
+<value>
+Você entrou na casa de {0} para poder ter um pouco de prazer, mas, como você não é masoquista, não foi dessa vez. A última coisa que você sentiu foi uma queimação na orelha, e não foi ninguém falando de você....
+</value>
+</string>
+<string key="HarlotFuckKillerPublic">
+<value>
+Parece que a Empousa não queria ter uma noite de sacanagem! O corpo de {0} foi encontrado na porta de seu chalé, com as mãos e os pés amarrados... pelo visto, a Empousa foi a única que se divertiu.
+</value>
+</string>
+<string key="DGToMason">
+<!--   0 - target's name 
+   -->
+<value>
+{0}, que era Frank Zhang, agora se tornou Paul 👷, assim como você!
+</value>
+</string>
+<string key="DGTransformToMason">
+<!--   0 - dead mason's name 
+   -->
+<!--   1 - mason collegues's name 
+   -->
+<value>
+{0} morreu, e você agora é Paul Blofis 👷. Seus companheiros (se houver) são: {1}
+</value>
+</string>
+<string key="DGToCult">
+<!--   0 - new cultist's name 
+   -->
+<value>
+{0}, que era Frank Zhang, virou Comedor de Lótus, assim como você!
+</value>
+</string>
+<string key="DGTransformToCult">
+<!--   0 - role's name 
+   -->
+<!--   1 - teammates's name 
+   -->
+<value>
+{0} morreu, e você, seguindo seu exemplo, vira um Comedor de Lótus. Seus companheiros (se houver) são: {1}
+</value>
+</string>
+<string key="DGToWolf">
+<!--   0 - DG's name 
+   -->
+<value>
+{0}, era Frank Zhang e virou Lestrigão, assim como você!
+</value>
+</string>
+<string key="DGTransformToWolf">
+<!--   0 - target's name 
+   -->
+<!--   1 - teammates's name 
+   -->
+<value>
+{0} era Lestrigão e morreu. Agora você é Lobisomem! Sua alcateia é: {1}
+</value>
+</string>
+<string key="SerialKillerWins" isgif="true">
+<value>
+Apenas uma pessoa sobreviveu... A Empousa, que comemora usando um colar feito com as orelhas que colecionou! Pena que não tem ninguém para comemorar junto!
+</value>
+</string>
+<string key="AskKill">
+<value>Quem você gostaria de matar essa noite?</value>
+</string>
+<string key="LoverDied">
+<!--   0 - dead's name 
+   -->
+<!--   1 - lover's name 
+   -->
+<!--   2 - roles 
+   -->
+<value>
+{0} dá seu último suspiro olhando no fundo dos olhos de seu amor, {1}, que segura seu corpo de joelhos. {1} não aguenta a dor, e, com uma faca, perfura o próprio coração... O casal ficará junto, mesmo no mundo dos mortos. {2}
+</value>
+</string>
+<string key="AskDoppelganger">
+<value>Em quem você quer se transformar?</value>
+</string>
+<string key="AskCupid1">
+<value>Quem será o casal? Escolha a primeira pessoa</value>
+</string>
+<string key="AskCupid2">
+<value>Quem será o casal? Escolha a segunda pessoa</value>
+</string>
+<string key="Hunter">
+<value>Bianca Di Angelo 🎯</value>
+</string>
+<string key="Cupid">
+<value>Eros 🏹</value>
+</string>
+<string key="SerialKiller">
+<value>Empousa 🔪</value>
+</string>
+<string key="Doppelgänger">
+<value>Frank Zhang 🎭</value>
+</string>
+<string key="NewWCRoleModel">
+<!--   0 - target's name 
+   -->
+<value>Você virou uma Criança Rebelde. Seu modelo é {0}.</value>
+</string>
+<string key="LoversWin">
+<value>Como o amor é lindo! O casal venceu!</value>
+</string>
+<string key="HunterKilledVisiter">
+<!--   0 - target's name 
+   -->
+<!--   1 - role 
+   -->
+<value>
+Opa! Parece que {0} estava no lugar errado na hora errada. Bianca Di Angelo 🎯 estava bem pistola noite passada, e pistola foi a última coisa que {0} viu após tentar espalhar flores de lótus pelo acampamento. {1}.
+</value>
+</string>
+<string key="CultAttempt">
+<value>
+Durante a noite, você escuta batidas na sua porta. Quando a abre, um indivíduo de capuz pergunta: "Você gostaria de provar essa deliciosa flor de lótus?" Você fecha a porta na cara da pessoa. Sua fé é mais forte.
+</value>
+</string>
+<string key="AlreadyOnWaitList">
+<!--   0 - target's name 
+   -->
+<value>Você já está na lista de espera para {0}.</value>
+</string>
+<string key="AddedToWaitList">
+<!--   0 - target's name 
+   -->
+<value>
+Você está na lista de espera para {0}. Eu mandarei uma mensagem quando o jogo estiver começando.
+</value>
+</string>
+<string key="NotifyNewGame">
+<!--   0 - target's name 
+   -->
+<value>Um jogo irá começar em {0}.</value>
+</string>
+<string key="SerialKillerWinsOverpower">
+<!--   0 - SK's name 
+   -->
+<!--   1 - target's name 
+   -->
+<value>
+Apenas duas pessoas estão vivas no acampamento essa manhã. {0} caminha em direção de {1}, com um sorriso sinistro. {1} até tenta fugir, mas não adianta... Nada é mais rápido do que uma Empousa nervosa.
+</value>
+</string>
+<string key="NoWinner" isgif="true">
+<value>
+Todos no acampamento morreram... Apenas os urubus festejam, com um banquete...
+</value>
+</string>
+<string key="SKHunterEnd">
+<!--   0 - SK's name 
+   -->
+<!--   1 - Hunter's name 
+   -->
+<value>
+O dia amanhece, encontrando apenas duas pessoas no acampamento. {0} corre sorridente para cima de {1}, com a faca em mãos. Mas os reflexos de {1} são rápidos o suficiente para atirar em {0} ao mesmo tempo que sua faca é cravada no coração de {1}. Ambos morrem, o acampamento está vazio e não houve nenhum vencedor para contar a história...
+</value>
+</string>
+<string key="RoleModelChosen">
+<!--   0 - target's name 
+   -->
+<value>
+Você não decidiu a tempo, então o bot escolheu por você: {0}
+</value>
+</string>
+<string key="Won">
+<value>Ganhou</value>
+</string>
+<string key="Lost">
+<value>Perdeu</value>
+</string>
+<string key="IdleCount">
+<!--   0 - player's name 
+   -->
+<!--   1 - idle count 
+   -->
+<value>
+{0} não votou e morreu por isso {1} vezes nas últimas 24 horas.
+</value>
+</string>
+<!--  New strings 7th of July
+   -->
+<!--
+ 
+If you are translating werewolf in a non-standard mode (eg. Mafia, Pokémon and similar) please put the role and the emoji in front of the string.
+  For example in Mafia, AboutMason would be:
+  Caporegime 👷\nYou are a caporegime blah blah
+  
+-->
+<string key="AboutVG">
+<value>
+Todos os papeis são parte do acampamento, mas um real campista 👱 é aquele que não tem absolutamente nada de especial. Eles dormem de noite, não fazem nada de dia, e votam na hora da expulsão do mesmo jeito que todos os outros papéis. Além disso, eles não tem nenhum jeito de provar para os outros que são apenas campistas comuns. Seu objetivo mais importante é vencer o jogo do jeito mais puro possível: votando nas pessoas certas, não confiando nas erradas, e navegando todas as mentiras do jogo. Isso é, até que sejam mortos ou até virarem Comedores de Lótus.
+</value>
+</string>
+<string key="AboutSeer">
+<value>
+O Oráculo de Delfos 👳 tem uma habilidade muito especial: cada noite, podem escolher uma pessoa e ver o papel dela. Isso é extremamente importante para o jogo, e Videntes são vitais para Aldeia. Quando são mesmo Videntes, e não Trouxas, mas nem sempre Videntes estão certos! Ao ver o papel de um Traíra, Videntes tem 50% de chance de vê-lo como Lobisomem, e 50% de chance de vê-lo como Aldeão 👱. /nLembre-se também de que papéis podem mudar. A pessoa que era Criança Rebelde na última noite já pode ter virado Lobisomem! Além disso, Videntes não sabem de que tipo um Lobisomem é. Tanto o Filhote de Lobisomem quanto o Lobisomem Alfa são vistos apenas como Lobisomens.\nÀs vezes, um jogo pode ter um Vidente e um Confidente (/aboutBH). Nesse caso, o Confidente saberá quem é Vidente assim que o jogo começar! Um ótimo Confidente serve como porta-voz de um Vidente. Ao invés de arriscar a vida de um Vidente revelando seu papel à Aldeia, o Confidente pode revelar seu próprio papel e, a cada manhã, dizer à Aldeia o que o Vidente viu na noite passada.
+</value>
+</string>
+<string key="AboutWw">
+<value>
+De noite, todos os Lestrigões 🐺 votam para decidir quem será a próxima vítima. Se der empate, uma das opções vai ser aleatoriamente escolhida pelo bot, mas nem todos os papéis devem ser atacados, alguns saem de casa, outros podem te matar, ou até permitir que não ataquem!
+</value>
+</string>
+<string key="AboutHarlot">
+<value>
+Você é a Piper McLean 💋 , a aliada sexy da Aldeia. Durante a noite, você poderá escolher alguém para fazer uma visitinha, e descobrir se a pessoa é ou não um lestrigão. Porém, se você visitar um lestrigão, ou alguém que está sendo atacado(a) pelos lestrigões, você irá morrer. Se você visitar alguém e os lestrigões tentarem te matar na sua casa, você irá sobreviver (já que não estava lá).
+</value>
+</string>
+<string key="AboutDrunk">
+<value>
+Pólux 🍻 passa todas as suas noites no chalé bebendo. Enquanto vivo, ele não é nada mais do que outro Campista 👱, mas ele pode ser muito útil quando morrer... Lestrigões que matam o Pólux acabam totalmente bêbados com o álcool em seu sangue, e não conseguem atacar a próxima vítima. Ou seja, ao morrer, Pólux salva duas vidas: a de quem não foi vítima porque os Lestrigões decidiram atacar o Pólux, e a da próxima vítima, que viverá uma noite a mais. Infelizmente Maníacos não comem a carne de suas vítimas, e podem matar Pólux sem ter medo de nada.
+</value>
+</string>
+<string key="AboutCursed">
+<value>
+Você foi Amaldiçoado 😾 . Por enquanto você é um campista, mas se você por atacado pelos lestrigões, você se tornará um lestrigão também.
+</value>
+</string>
+<string key="AboutTraitor">
+<value>
+Traíííííra!! Você é o Luke Castellán 🖕 ! Por enquanto, você é um campista, mas assim que todos os lestrigões estiverem mortos, você se transformará em lestrigão. Se o Oráculo de Delfos vir você, você pode ou não ser identificado(a) por ela como um lestrigão.
+</value>
+</string>
+<string key="AboutGA">
+<value>
+Você é Thalia Grace 👼 , e seu papel é proteger o acampamento. Durante a noite, você pode escolher um(a) jogador(a) para proteger. Porém, se você escolher um lestrigão, pode acontecer o pior.
+</value>
+</string>
+<string key="AboutDetective">
+<value>
+Você é a Annabeth 🕵 , e joga pelo acampamento. Durante o dia, você pode escolher uma pessoa para investigar e descobrir seu papel. No entanto, ao fazer isso, você pode ser descoberto pelos lestrigões! (40% de chance)
+</value>
+</string>
+<string key="AboutGunner">
+<value>
+Um Clarisse 🔫 faz justiça com as próprias mãos, e todo dia tem a oportunidade de atirar em alguém, desde que ainda tenha munição. Clarisse começa o jogo com duas balas, podendo atirar em uma pessoa a cada dia. A pessoa cai morta, e todos ouvem o barulho do tiro e descobrem quem atirou. Fora isso, Clarisse pode salvar o jogo: se a maioria dos habitantes do acampamento for lestrigão, mas Clarisse está viva e ainda tem munição, o jogo ainda não termina.
+</value>
+</string>
+<string key="AboutTanner">
+<value>
+O objetivo do Nico Di Angelo 👺 é ser expulso. Se for expulso, o Nico ganha o jogo e todos os outros jogadores perdem. Se não for expulso até o fim do jogo, ou morrer de outro jeito, o Suicida perde. Ao invés de lutar pelo acampamento, Nico tem seu próprio time, e ganha sozinho.
+</value>
+</string>
+<string key="AboutFool">
+<value>
+Octavian 🃏 acha que é Oráculo, e até o bot fala isso pra ele, mas os resultados das visões são aleatórios! Quando Octavian tenta ver o papel de uma pessoa, o papel visto é aleatório dentre todos os papéis atualmente no jogo. As exceções são que um Trouxa nunca vai ver ninguém como Oráculo, Octavian ou Luke Castellán. Assim como o Oráculo de Delfos, Octavian não sabe distinguir tipos diferentes de Lestrigão.\nÉ sempre importante descobrir se você é o Oráculo de Delfos real ou apenas o Octavian, e tem vários jeitos. O mais importante é que, se houve um Confidente no jogo, ele saberá quem é o Oráculo de Delfos. Outro jeito de descobrir é vendo a mesma pessoa duas vezes, pois ambas vão ter um resultado aleatório. Se os dois papéis resultantes forem diferentes, e mudar de um para o outro for impossível, você já sabe que é Octavian. O problema é que mesmo se os papéis forem iguais, ainda existe uma probabilidade de que você seja Octavian, além de azarado. O último jeito é vendo o papel de uma pessoa antes dela morrer.
+</value>
+</string>
+<string key="AboutCult">
+<value>
+O objetivo de um Comedor de Lótus 👤 é converter todos os jogadores vivos à aos Comedores de Lótus. Para isso, a cada noite os Comedores de Lótus votam para decidir quem vão converter naquela noite. Apenas o membro mais novo vai à casa da pessoa escolhida, e, assim, é ele que sofre as consequências de ter escolhido a pessoa errada. Alguns papéis são difíceis de converter, outros podem matar suas visitas.
+</value>
+</string>
+<string key="AboutCH">
+<value>
+Sempre que um jogo tiver Comedor de Lótus, também terá um Percy Jackson 💂. Seu objetivo é matar todos os membros dos Comedores de Lótus, e, para isso, Percy visita uma pessoa por noite para mandar ao mundo inferior. Se a pessoa for membro dos Comedores de Lótus, ela morre. Se a pessoa for Empousa, o Percy Jackson morre. Surpreendentemente, se a pessoa for Lestrigão, ninguém morre. Já se os Comedores de Lótus tentarem converter o Percy Jackson, o membro mais recente morre. O Percy Jackson visita pessoas depois dos Lestrigões e Empousas visitarem, mas antes dos Comedores de Lótus converterem alguém. Isso significa que, se Percy Jackson visitar uma pessoa no mesmo dia que os Comedores de Lótus tentarem convertê-la, a pessoa não morre, mas pode ter sido convertida.
+</value>
+</string>
+<string key="AboutWC">
+<value>
+No começo do jogo, uma Criança Rebelde 👶 pode escolher uma pessoa para ser seu exemplo, se não escolher o bot escolhe, hein! Se a pessoa escolhida morrer, a Criança fica tão revoltada que vira Lestrigão. Enquanto seu exemplo estiver vivo, uma Criança Rebelde joga pelo Acampamento.
+</value>
+</string>
+<string key="AboutAppS">
+<value>
+Rachel Elizabeth Dare 🙇 ainda não tem permissão, experiência ou autoconfiança para descobrir o papel de alguém. Apenas depois que seu mestre, o Oráculo de Delfos, morrer. Rachel, sem ter mais o que aprender, assume a posição de Oráculo de Delfos e começa a prever os papéis das pessoas. Quando Rachel vira Oráculo, um Confidente (se houver) é notificado com seu nome e o novo cargo.
+</value>
+</string>
+<string key="AboutBH">
+<value>
+Um Confidente 👁 sabe quem é (e se há) Oráculo de Delfos (/aboutSeer) no jogo, recebendo uma mensagem no começo do jogo e outra no caso de Rachel Elizabeth Dare 🙇 virar Oráculo de Delfos. Confidentes não sabem quem é Octavian ou Oráculo de Delfos, apenas quem é ou virou Oráculo. Confidentes têm um papel crucial no Acampamento, o de falar com o Oráculo de Delfos para assegurá-lo de que ele não é Octavian. Um bom Confidente também ouve todas as visões do Oráculo de Delfos, e as compartilha para o Acampamento como porta-voz do Oráculo. Assim, o Acampamento fica sabendo dos papéis das pessoas sem colocar a vida do Oráculo em risco.
+</value>
+</string>
+<string key="AboutMason">
+<value>
+Paul Blofis 👷 sozinho é a mesma coisa que um Campista 👱, mas se houver mais de um Paul no jogo, eles são cruciais para a vitória do Acampamento. O papel principal de Paul é pedir aos Campistas para que o enviem mensagens falando qual é seu papel. Com essa informação em mãos, Paul's lideram e gerenciam o Acampamento, por se comunicarem com jogadores detentores de papéis importantes como Oráculo de Delfos ou Thalia Grace 👼. Eles que lideram uma votação para enforcar a pessoa certa, e também são eles que dizem aos papéis importantes o que devem fazer em cada noite. \n\nSe um dos Paul for convertido para os Comedores de Lótus, ou virar Lestrigão, os outros Paul recebem uma mensagem os avisando, e, como jogam pelo Acampamento, têm a responsabilidade de contar a todos qual deles mudou de time. Por causa disso, Paul são as pessoas mais confiáveis do jogo. Quando o Acampamento tem Paul's habilidosos, sua vitória é quase certa.
+</value>
+</string>
+<string key="AboutDG">
+<value>
+O objetivo de Frank Zhang 🎭 é se transformar em alguém. No começo do jogo, Frank Zhang pode escolher uma pessoa para ser seu exemplo. Quando ela morrer, o Frank se transforma no papel dela! Normalmente, Frank se transforma no papel original de uma pessoa, ou seja, a infecção de um Lestrigão Alfa ou a conversão para os Comedores de Lótus não influenciam na hora de Frank se transformar. A exceção é que, se o papel original for Amaldiçoado, Luke Castellán ou Criança Rebelde, e a pessoa tiver se transformado em Lestrigão (mesmo se foi pela mordida de um Alfa), o Frank também se transformará em Lestrigão. Além disso, se o papel original da pessoa for Rachel E Dare 🙇, e ela não tiver sido transformada em Lestrigão, Frank pega o papel que ela tinha na hora da morte.
+</value>
+</string>
+<string key="AboutCupid">
+<value>
+O deus Eros 🏹 pode durante a primeira noite do jogo, escolher duas pessoas para formar um Casal. Por mais que seja possível se escolher é mais seguro formar o Casal com duas outras pessoas. Pode ter regras diferentes em relação à lealdade de Eros, segundo o jogo, sua lealdade é com o Acampamento e não com o Casal formado.\n\nUm Casal ❤ continua com seus papéis originais, mas o amor muda tudo. Se um dos dois morrer, o outro não aguenta a dor de perder sua alma gêmea e morre junto. O lado bom é que se, no final do jogo, uma pessoa do Casal estiver no time vitorioso, a outra também ganha junto, independente do seu time. O Casal pode escolher pra que time vai jogar: o time de uma das pessoas, o time da outra, ou o próprio Casal (alguns grupos não autorizam jogar pelo Casal). Jogando pelo Casal, o objetivo final é serem os únicos sobreviventes do Acampamento. Quando isso acontece, o Casal ganha, todos os outros perdem, e o jogo acaba com um final especial!
+</value>
+</string>
+<string key="AboutHunter">
+<value>
+Bianca Di Angelo 🎯 passa a noite de vigília, e não vai ser pego desprevenida por qualquer um. Além de poder se defender de Lestrigões e Comedores de Lótus, Bianca pode vingar a própria morte atirando em alguém. Quando morrer por qualquer motivo que não seja o ataque de um Lestrigão, Bianca tem a opção de escolher uma pessoa dentre todos os jogadores vivos para matar, e assim levar junto consigo.\n\nQuando Bianca for atacada por um único Lestrigão, tem 30% de chance de matar o Lestrigão e assim, sobreviver. Já quando for atacada por mais de um Lestrigão, Bianca com certeza morrerá, mas terá a chance de levar um dos Lestrigões consigo. Se forem dois Lestrigões, a chance é de 50%; se forem três, 70%; se forem 4, 90%; e, se forem mais do que quatro, um dos Lestrigões com certeza morrerá. Se a Bianca morrer por causa do ataque de um Lestrigão, ela não poderá escolher uma pessoa para matar. Ao invés disso, o bot escolhe um dos Lestrigões para morrer
+</value>
+</string>
+<string key="AboutSK">
+<value>
+A Empousa 🔪 é a pessoa mais perigosa do Acampamento. Seu único objetivo é matar todos do Acampamento, e, depois de escolher uma vítima, o único jeito dela sobreviver é sendo protegida pela Thalia Grace 👼. Não tem ninguém que uma Empousa não consiga pegar de surpresa, e ninguém que consiga se esconder pra se salvar. Além disso, se alguém fizer a tolice de visitar a casa de uma Empousa, a pessoa morrerá. A única exceção é quando uma alcateia ataca uma Empousa. Nesse caso, os Lestrigões tem 20% de chance de pegar a Empousa desprevenido e vencer a luta. Perigoso como uma Empousa é, ao menos ele não tem aliados, e, como todo mundo, pode ser morto durante o dia.
+</value>
+</string>
+<string key="AboutPara">
+<value>
+Para é o desenvolvedor desse jogo, e ele gosta de rosnar pras pessoas. Talvez ele tenha ficado muito tempo com os Lestrigões... Mexer com os lestrigões não é uma idéia muito boa, né
+</value>
+</string>
+<string key="EndTime">
+<value>Tempo total do jogo: {0}</value>
+</string>
+<!--  New strings, July the 8th 
+   -->
+<string key="Day">
+<!--  0 - Day 
+   -->
+<value>Dia {0}</value>
+</string>
+<string key="NodeShutsDown">
+<value>Alguma coisa deu errado, e esse nodo desligou :/</value>
+</string>
+<string key="SentPrivate">
+<value>Eu te enviei uma mensagem no privado</value>
+</string>
+<string key="StartPM" deprecated="true">
+<value>
+Por favor, mande uma mensagem em privado para que eu possa mandar para você: @werewolfbot
+</value>
+</string>
+<string key="PMTrue" deprecated="true">
+<value>
+Obrigado por me iniciar! Posso te enviar mensagens privadas agora.
+</value>
+</string>
+<string key="MustReplySmite" deprecated="true">
+<value>
+Você precisa responder o usuário que você deseja remover da partida
+</value>
+</string>
+<string key="WhatToDo">
+<value>O que você gostaria de fazer?</value>
+</string>
+<string key="JoinFromGroup">
+<value>Você precisa entrar no jogo em um grupo!</value>
+</string>
+<string key="StartFromGroup">
+<value>Você precisa iniciar o jogo em um grupo!</value>
+</string>
+<string key="PingInfo">
+<value>
+Tempo para receber a mensagem: {0}\nMensagens por segundo: {1}
+</value>
+</string>
+<string key="WhatLang">
+<value>Que língua?\nAtual: {0}</value>
+</string>
+<string key="WhatVariant">
+<value>Que variante?\nAtual: {0}</value>
+</string>
+<string key="LangSet">
+<value>Idioma definido como {0}</value>
+</string>
+<string key="GetLang">
+<value>Pegar que arquivo de idioma?</value>
+</string>
+<string key="NoNodes">
+<value>
+Não há nodos ligados no momento, por favor tente novamente dentro de alguns segundos
+</value>
+</string>
+<string key="GroupCommandOnly">
+<value>Este comando é somente para grupos</value>
+</string>
+<string key="NotGlobalAdmin">
+<value>Somente administradores globais têm acesso...</value>
+</string>
+<string key="NotPara">
+<value>Ei! Você não é o Para!</value>
+</string>
+<string key="Yes">
+<value>Sim</value>
+</string>
+<string key="No">
+<value>Não</value>
+</string>
+<string key="Allow">
+<value>Permitir</value>
+</string>
+<string key="Disallow">
+<value>Não Permitir</value>
+</string>
+<string key="Show">
+<value>Mostrar</value>
+</string>
+<string key="Hide">
+<value>Esconder</value>
+</string>
+<!--   Game Mode Choices
+   -->
+<string key="NormalOnly">
+<value>Normal Apenas</value>
+</string>
+<string key="ChaosOnly">
+<value>Caos Apenas</value>
+</string>
+<string key="PlayerChoice">
+<value>Escolha do Jogador</value>
+</string>
+<!--   Show Roles on End Game 
+   -->
+<string key="ShowNone">
+<value>Não mostrar nenhum</value>
+</string>
+<string key="ShowLiving">
+<value>Mostrar apenas dos jogadores vivos</value>
+</string>
+<string key="ShowAll">
+<value>Mostrar todos</value>
+</string>
+<string key="Cancel">
+<value>Cancelar</value>
+</string>
+<string key="AllowFleeQ">
+<value>
+Você permitirá fugas após o início da partida?\nLembre-se, os jogadores sempre poderão sair durante a entrada na partida.\nAtual: {0} fugas
+</value>
+</string>
+<string key="AllowFleeA">
+<value>{0}ei que jogadores fujam após o início da partida</value>
+</string>
+<string key="MaxPlayersQ">
+<value>
+Que quantidade de jogadores você gostaria de definir como a máxima?\nAtual: {0}
+</value>
+</string>
+<string key="MaxPlayersA">
+<value>Número máximo de jogadores definido como {0}</value>
+</string>
+<string key="ShowRolesDeathQ">
+<value>
+Mostrar os papéis dos jogadores quando morrerem?\nAtual: {0}
+</value>
+</string>
+<string key="ShowRolesDeathA">
+<value>{0} os papéis dos jogadores quando morrerem.</value>
+</string>
+<string key="GameModeQ">
+<value>
+Qual modo de jogo estará ativo no grupo?\nAtual: {0}
+</value>
+</string>
+<string key="GameModeA">
+<value>Modo de jogo definido como {0}</value>
+</string>
+<string key="ShowRolesEndQ">
+<value>
+Gostaria que os papeis fossem revelados no fim do jogo?\nAtual: {0}
+</value>
+</string>
+<string key="ShowRolesEndA">
+<value>Revelação dos papéis definida como: {0}</value>
+</string>
+<string key="SetDayTimeQ">
+<value>
+Escolha a duração base (em segundos) do dia. Ela ainda será modificada de acordo com o número de jogadores.Configuração padrão: {0}\nAtual: {1}
+</value>
+</string>
+<string key="SetDayTimeA">
+<value>Duração base do dia definida como {0} segundos</value>
+</string>
+<string key="SetNightTimeQ">
+<value>
+Escolha a duração base (em segundos) da noite. Ela ainda será modificada de acordo com o número de jogadores. Configuração padrão: {0}\nAtual:{1}
+</value>
+</string>
+<string key="SetNightTimeA">
+<value>Duração da noite definida como {0} segundos</value>
+</string>
+<string key="SetLynchTimeQ">
+<value>
+Escolha a duração (em segundos) da votação do enforcamento. Configuração padrão: {0}\nAtual:{1}
+</value>
+</string>
+<string key="SetLynchTimeA">
+<value>
+Duração da votação do enforcamento definida como {0} segundos
+</value>
+</string>
+<string key="AllowFoolQ">
+<value>
+Permitir o papel de Trouxa em partidas?\nAtual: {0}
+</value>
+</string>
+<string key="AllowFoolA">
+<value>Existência de Trouxa definida como: {0}</value>
+</string>
+<string key="AllowTannerQ">
+<value>
+Permitir o papel de Suicida em partidas?\nAtual: {0}
+</value>
+</string>
+<string key="AllowTannerA">
+<value>Existência de Suicida definida como: {0}</value>
+</string>
+<string key="AllowCultQ">
+<value>
+Permitir a existência da Seita em partidas?\nAtual: {0}
+</value>
+</string>
+<string key="AllowCultA">
+<value>Existência da Seita definida como: {0}</value>
+</string>
+<string key="EnableSecretLynchQ">
+<value>Ativar linchamneto secreto?\nAtual: {0}</value>
+</string>
+<string key="EnableSecretLynchA">
+<value>
+Ativamento do linchamento secreto definido como: {0}
+</value>
+</string>
+<string key="ThankYou">
+<value>Obrigado, tenha um bom dia :)</value>
+</string>
+<string key="WhatLangGroup">
+<value>Você quer procurar um grupo jogando em que idioma?</value>
+</string>
+<string key="HereIsList">
+<value>Aqui estão os grupos jogando em {0}:</value>
+</string>
+<string key="Members">
+<value>Membros</value>
+</string>
+<string key="StartMe">
+<value>
+Por favor me mande start no privado para eu poder te enviar mensagens
+</value>
+</string>
+<string key="PlayerNoPM">
+<value>{0} não iniciou o bot, e foi retirado(a) do jogo!</value>
+</string>
+<string key="LatestList">
+<value>Aqui está a lista mais recente de jogadores</value>
+</string>
+<string key="UnableToGetList">
+<value>
+Não fui capaz de obter a lista de jogadores, você tem certeza de que o jogo já começou
+</value>
+</string>
+<string key="YouJoined">
+<!--   0 - Group Name 
+   -->
+<value>Você se juntou à partida em {0}</value>
+</string>
+<string key="Ping2">
+<value>Tempo até o envio da mensagem ping: {0}</value>
+</string>
+<!--   Update 4.0
+   -->
+<string key="RoleInfoMayor">
+<value>
+Você é Quíron 🎖. Como Diretor de Atividades do Acampamento, seu voto é confiável o suficiente para ser contado duas vezes... Depois que você revelar seu cargo, é claro.
+</value>
+</string>
+<string key="RoleInfoPrince">
+<value>
+Você é Hazel Levesque 👑, e foge do mundo inferior, passando a vida no Acampamento. Se tentarem te expulsar, perceberão seu erro, e você sobreviverá.
+</value>
+</string>
+<string key="RoleInfoClumsyGuy">
+<value>
+Você é Clovis 🤕! Como um filho de Hipnos, ama dormir e está sempre atrapalhado, tendo altas chances de votar na pessoa errada.
+</value>
+</string>
+<string key="RoleInfoSorcerer">
+<value>
+Você é Josephine 🔮, filha de Hécate. Você se junta às criaturas da noite, ao invés dos campistas. À noite, você pode olhar através da névoa, e procurar por uma pessoa lá. Mas apenas Lestrigões ou Oráculo de Delfos tem uma presença forte através da névoa. Você ganha somente se os Lestrigões ganharem.
+</value>
+</string>
+<string key="RoleInfoBlacksmith">
+<value>
+Você é Leo Valdez ⚒, e tem um dragão de bronze gigante. Você pode o convocar para manter o acampamento a salvo.
+</value>
+</string>
+<string key="RoleInfoAlphaWolf">
+<value>
+Você é Lestrigão Alfa 🐺⚡️, a origem da praga. Sua mordida é a causa da maldição que transforma humanos em Lestrigões. Cada noite, você irá escolher alguém para atacar e matar, mas, enquanto você estiver na alcateia, sua vítima tem uma chance de 20% de virar Lestrigão.
+</value>
+</string>
+<string key="RoleInfoWolfCub">
+<value>
+Você é Filhote de Lestrigão 🐺🐶, adorado por sua matilha. Como os outros Lestrigões, você irá escolher alguém para atacar e matar todas as noites. Se alguém te matar, sua matilha verá seu corpo no chão, e, com raiva, vingará sua morte, atacando duas vezes na noite seguinte.
+</value>
+</string>
+<string key="PrinceLynched">
+<value>
+O acampamento se prepara para expulsar {0}, que grita, "Esperem! Esperem! Eu sou a Hazel! Posso provar isso usando a Névoa sobre vocês." Se sentindo tolos, os campistas vão para seus chalés dormir com o rabo entre as pernas.
+</value>
+</string>
+<string key="SorcererOther">
+<value>
+Você procura por {0} através da Névoa, mas sua presença lá é muito menor do que a do Oráculo de Delfos 👳 ou um Lestrigão seria...
+</value>
+</string>
+<string key="MayorReveal">
+<value>
+{0} levanta de sua cadeira de rodas e se revela ser o centauro Quíron 🎖. De agora em diante, os votos de {0} para enforcar alguém serão contados duas vezes.
+</value>
+</string>
+<string key="AskMayor">
+<value>
+Você quer se revelar para o Acampamento como Quíron?
+</value>
+</string>
+<string key="Reveal">
+<value>Revelar</value>
+</string>
+<string key="SpreadDust">
+<value>
+Você pode impedir que os Lestrigões ataquem na próxima noite. Quer chamar o Festus agora?
+</value>
+</string>
+<string key="BlacksmithSpreadSilver">
+<value>
+As discussões pausam assim que a Aldeia percebe o dragão de {0} sobrevoando o Acampamento. Com certeza é o suficiente para impedir Lestrigões de atacarem essa noite.
+</value>
+</string>
+<string key="Mayor">
+<value>Quíron 🎖</value>
+</string>
+<string key="Prince">
+<value>Hazel 💍</value>
+</string>
+<string key="Sorcerer">
+<value>Josephine 🔮</value>
+</string>
+<string key="ClumsyGuy">
+<value>Clóvis 🤕</value>
+</string>
+<string key="Blacksmith">
+<value>Leo Valdez ⚒</value>
+</string>
+<string key="AlphaWolf">
+<value>Lestrigão Alfa ⚡️</value>
+</string>
+<string key="WolfCub">
+<value>Filhote de Lestrigão 🐶</value>
+</string>
+<string key="PlayerBittenWolves">
+<value>
+Sua alcateia começa a atacar {0} mas, de repente, {1} manda todos pararem. Com sua autoridade como Lestrigão Alfa ⚡️, diz que decidiu que {0} se juntará à alcateia, e todos voltam para suas casas após morderem a vítima. Amanhã de noite, {0} se transformará em Lestrigão.
+</value>
+</string>
+<string key="PlayerBitten">
+<value>
+Você achou que iria morrer pelos Lestrigões, mas seu Alfa te escolheu. Amanhã à noite você irá virar Lestrigão! Que sorte! Ou será que é um azar?
+</value>
+</string>
+<string key="BittenTurned">
+<value>
+Você olha para o sol se pondo, e percebe que seu corpo se transforma. Agora você é Lestrigão 🐺!
+</value>
+</string>
+<string key="AboutMayor">
+<value>
+o Acampamento pode não ter uma Cavalaria, mas pelo menos tem Quíron 🎖. Como todos os outros papéis, no começo do jogo ninguém sabe quem é Quíron, mas todo dia antes da expulsão o jogador pode escolher ficar quieto ou revelar seu papel. Assim que se revelar, os votos de um Xerife passam a valer por dois, o que pode ser muito importante mais pro final do jogo, quando Lestrigões ou os Comedores de Lótus começarem a tentar ganhar votações. Durante esses empates perigosos, o voto de Quíron pode ser a diferença entre a vitória e a derrota. Mas se revelar cedo demais pode ser perigoso, transformando o Quíron em um alvo dos inimigos do Acampamento.
+</value>
+</string>
+<string key="AboutPrince">
+<value>
+Viver em um acampamento por escolha própria pode ser uma péssima ideia mas, às vezes, Hazel 👑 pode ser ingênua ou desesperada o suficiente para procurar aventuras em todos os lugares errados. Com testemunhas de que não saiu da cama durante a noite, a pessoa pode se safar de um enforcamento ao se revelar. Depois de verem a prova de que a pessoa indo para a expulsão é Hazel, os campistas param tudo e se retiram sem expulsar ninguém, mas apenas na primeira vez que tentarem enforcar a pessoa. Por mais seguro que seu quarto seja, Hazel também não consegue escapar da determinação de uma Empousa de olho na presa. E não adianta de nada dormir em um quarto seguro se a volta para o chalé estiver totalmente desprotegida de ataques de Lestrigões.
+</value>
+</string>
+<string key="AboutSorcerer">
+<value>
+Josephine 🔮 joga pela vitória dos lestrigões, e não pelo acampamento. Ao invés de ver os papéis de alguém em uma bola de cristal, Josephine usa a névoa e procura por sua presença lá. A maioria das pessoas não tem nenhuma ligação forte com os espíritos, mas Lestrigões e Oráculo de Delfos têm. Assim, a cada noite Josephine só descobrirá se uma pessoa é Oráculo, Lestrigão ou nenhum dos dois. Essa informação pode ser muito importante para a Alcateia, que vive temendo ser descoberta pelo Oráculo de Delfos. Josephine, assim como Oráculo de Delfos e Octavian, não sabem distinguir dentre os tipos de Lestrigões.
+</value>
+</string>
+<string key="AboutClumsy">
+<value>
+Clóvis 🤕 é a mesma coisa que um campista 👱, com o diferencial de que, a cada votação de enforcamento, um Sem-Jeito tem 50% de chance de votar em uma pessoa aleatória, ao invés da pessoa na qual o jogador clicou. Não votar não é uma boa opção, já que uma pessoa que não vota por dois enforcamentos seguidos é morta. Vale mais a pena ter uma pessoa que vota errado de vez em quando do que ter um campista a menos.
+</value>
+</string>
+<string key="AboutBlacksmith">
+<value>
+Leo Valez ⚒ tem um dragão de bronze gigante. Ele pode o convocar para manter o acampamento a salvo
+</value>
+</string>
+<string key="AboutAlphaWolf">
+<value>
+Um Lestrigão Alfa ⚡️ é um tipo especial de Lestrigão. Quando há um Alfa na alcateia, cada ataque bem sucedido terá uma chance de 20% de resultar na infecção da vítima, ao invés de sua morte. Se a vítima for infectada por um Alfa, ela sobreviverá mais um dia. E, na noite seguinte, se transformará em Lestrigão. Se o ataque não for bem sucedido (seja pela presença de Thalia Grace, seja por autodefesa) a pessoa não tem chance nenhuma de se transformar em Lestrigão. Assim como Filhotes de Lestrigão, um Lestrigão Alfa será visto pelo Oráculo de Delfos ou pelo Octavian apenas como "Lestrigão". Apenas Annabeth verá o papel real de um Lestrigão Alfa. Além disso o Lestrigão Alfa pode ser desafiado pelo Lestrigão Negro (se houver) pela liderança da alcateia podendo resultar em uma chance 70% de morte do Alfa. \n\nChances de conversão para a Seita 👤: 0%, não estará em casa, e se estiver mata o Integrante mais novo.
+</value>
+</string>
+<string key="AboutWolfCub">
+<value>
+Um Filhote de Lestrigão é um Lestrigão como todos os outros... Tirando que, por ser filhote, é o membro mais amado e mimado da alcateia. Se morrer, o resto da alcateia (se houver) vai poder atacar duas vezes na noite seguinte, para vingar sua morte. Assim como Lestrigão Alfa (/aboutAlphaWolf), um Filhote de Lestrigão será visto pelo Oráculo de Delfos ou Octavian apenas como "Lestrigão". Apenas Annabeth verá o papel real de um Filhote de Lestrigão.
+</value>
+</string>
+<!--   new strings 06 nov
+   -->
+<string key="DGTransformToAlpha">
+<!--   0 - target's name 
+   -->
+<!--   1 - teammates's name 
+   -->
+<value>
+{0} morreu, e você se transformou em Lestrigão Alfa. Seus companheiros (se houver) são: {1}
+</value>
+</string>
+<string key="DGTransformToWolfCub">
+<!--   0 - target's name 
+   -->
+<!--   1 - teammates's name 
+   -->
+<value>
+{0} morreu, e você se transformou em Filhote de lestrigão. Seus companheiros (se houver) são: {1}
+</value>
+</string>
+<string key="VillageTeam" deprecated="true">
+<value>Time Acampamento</value>
+</string>
+<string key="NeutralTeam" deprecated="true">
+<value>Time Neutro</value>
+</string>
+<string key="SerialKillerTeam" deprecated="true">
+<value>Time Empousai</value>
+</string>
+<string key="CultTeam" deprecated="true">
+<value>Time Comedores de Lótus</value>
+</string>
+<string key="TannerTeam" deprecated="true">
+<value>Time Nico Di Angelo</value>
+</string>
+<string key="VillageTeamEnd">
+<value>Acampamento</value>
+</string>
+<string key="NeutralTeamEnd">
+<value>Neutro</value>
+</string>
+<string key="WolfTeamEnd">
+<value>Alcatéia</value>
+</string>
+<string key="SerialKillerTeamEnd">
+<value>Empousai</value>
+</string>
+<string key="CultTeamEnd">
+<value>Seita</value>
+</string>
+<string key="TannerTeamEnd">
+<value>Nico Di Angelo</value>
+</string>
+<string key="CultConvertWolf">
+<value>
+Os Comedores de Lótus enviam {0} para tentar converter {1}, mas seus ossos descarnados são jogados pela janela. {0} morreu...
+</value>
+</string>
+<string key="HarlotFuckedKilledPublic">
+<!--   used when Harlot visit's SK's victim, and dies 
+   -->
+<!--  {0} = Harlot name, {1} = SK's victim name
+   -->
+<value>
+{0} vai até o chalé de {1}, oferecendo companhia, mas encontra alguém removendo cirurgicamente os órgãos de {1}! Tinha uma Empousa na casa, e {0} não conseguiu escapar a tempo!
+</value>
+</string>
+<!--  New Death Strings 05 DEC
+   -->
+<string key="ApprenticeSeerEaten">
+<value>
+O Acampamento acorda e encontra o corpo ensanguentado e mordido de {0}, que era Rachel Elizabeth Dare 🙇, ao lado dos seus livros de advinhação.
+</value>
+</string>
+<string key="BlacksmithKilled">
+<value>
+{0} e uma Empousa descobriram que bigornas não matam apenas se caírem em cima de alguém. O corpo de {0} é encontrado atravessado em sua própria bigorna e sem sua orelha direta...
+</value>
+</string>
+<string key="CultistKilled">
+<value>
+Parece que Maníacos não gostam de religião, visto que {0} está com uma vela no lugar de sua orelha direta e em cima de um candelabro, sangrando... Os Comedores de Lótus perdeu um membro.
+</value>
+</string>
+<string key="CupidKilled">
+<value>
+O amor no Acampamento acabou com a morte de {0}, Eros 🏹. Seu corpo é encontrado sem sua orelha direta, que foi arrancada com a sua flecha por uma Empousa...
+</value>
+</string>
+<string key="DrunkKilled">
+<value>
+{0} que era Pólux 🍻, teve seu fígado retirado cirurgicamente e colocado em uma garrafa de vinho. Sua orelha direita também foi retirada habilmente, mas vai saber onde ela está...
+</value>
+</string>
+<string key="GuardianAngelKilled">
+<value>
+O Acampamento teme pela sua segurança, visto que {0}, que era Thalia Grace 👼, está sem vida na frente do chalé de Zeus. Mais chocante do que a falta de uma de suas orelhas são seus cabelos, completamente aparados por uma faca. Alguma Empousa acabou de ganhar uma linda peruca.
+</value>
+</string>
+<string key="GunnerKilled">
+<value>
+Nenhuma vigilância pode ser constante... Flechas foram disparadas​ no chalé de {0}, mas, dessa vez, quem estava segurando o arco era a Empousa. Uma das flechas arrancou sua orelha direta... Não há mais justiça no Acampamento agora que Bianca Di Angelo 🔫 morreu.
+</value>
+</string>
+<string key="MayorKilled">
+<value>
+O Acampamento está com déficit de liderança! O corpo de {0} foi encontrado cortado da cintura para cima. ao lado do corpo, havia um cavalo branco sem cabeça, o que indicava ser Quiron 🎖. A única quebra de simetria no arranjo está em suas orelhas, ou melhor, orelha, porque uma delas desapareceu!
+</value>
+</string>
+<string key="PrinceKilled">
+<value>
+A segurança no Acampamento foi reforçada após a morte de {0}, que era Hazel. A falta de sua orelha direita deixa claro que foi trabalho de uma Empousa, mas ainda não se sabe como o crime aconteceu...
+</value>
+<value>
+Os guardas de {0} foram pegos cochilando na noite passada. Os restos de {0} foram encontrados, desmembrado em em várias partes do acampamento exceto a orelha direita, foram brutalmente dilacerados por uma faca. Nem mesmo o sangue de Plutão deteve a lâmina da faca de uma Empousa.
+</value>
+</string>
+<string key="SeerKilled">
+<value>
+O Acampamento acorda para ver o corpo de {0}, sem vida. Parece que uma Empousa fez a festa ali, arrancando sua orelha direta e colocando um chifre de Minotauro no lugar do seu cérebro.
+</value>
+</string>
+<string key="SorcererEaten">
+<value>
+Uivos tristes podem ser ouvidos do outro lado do acampamento. Um erro foi cometido. Os lestrigões mataram um deles. {1} {0} está morto.
+</value>
+<value>
+Gritos de "eu sou seu aliado!" foram ouvidos ontem à noite. Os campistas encontram na manhã seguinte um corpo exumado e uma bola mística esmagada, pertencente a {0}, {1}. A fome supera o companheirismo...
+</value>
+</string>
+<string key="WildChildEaten">
+<value>
+Assassinos! Assassinos! O Acampamento encontra o corpo de uma Criança cheio de marcas de mordidas. Os Lestrigões mataram {0}. Que cruel.
+</value>
+</string>
+<string key="SerialKillerKilledCH">
+<!--  used when CH visits SK
+   -->
+<value>
+{0}, que era Percy Jackson 💂, escolheu a pessoa errada para interrogar. Seu corpo é encontrado sem vida e sem a orelha direita...
+</value>
+<value>
+O corpo de {0}, o Percy Jackson 💂, foi encontrado no meio do Acampamento, cortado em cem pedaços, mas nenhum deles era o da orelha direita. Checar se a Empousa era um Comedor de Lótus não foi uma boa ideia...
+</value>
+</string>
+<string key="CultConvertWolfPublic">
+<!--
+ used when Cultists convert the wolves, only if wolves stayed home
+  
+-->
+<value>
+Enquanto parece que os lestrigões aproveitaram para ficar descansando {0}, um Comedor de Lótus decidiu procurar confusão com eles, que se provaram difíceis de aceitar. A cabeça de {0} foi transformada em uma lanterna de Halloween! BOO!!
+</value>
+<value>
+Foi uma péssima escolha os Comedores de Lótus visitar um Lestrigão que decidiu ficar no Chalé durante a noite. {0} virou uma bela refeição pros lestrigões, que não se interessam muito por florzinhas.
+</value>
+</string>
+<string key="CultConvertKillerPublic">
+<!--  used when Cultists convert the SK
+   -->
+<value>
+Os Comedores de Lótus fizeram uma péssima decisão ao tentar converter uma Empousa. O corpo de {0} é encontrado com uma vela dentro de sua boca e outra no que sobrou do ouvido.
+</value>
+<value>
+Na última noite, Os Comedores de Lótus tentaram converter alguém mais louco que eles. O membro mais novo, {0}, perdeu a orelha direita e todos seus órgãos internos.
+</value>
+</string>
+<string key="GAGuardedKiller">
+<!--   used when GA guards SK 
+   -->
+<value>
+Tentando ajudar o Acampamento, Thalia Grace 👼, {0}, foi proteger uma Empousa, e perdeu a vida, o cabelo, e a orelha direita.
+</value>
+</string>
+<string key="GAGuardedWolf">
+<!--   used when GA guards a wolf 
+   -->
+<value>
+{0} foi proteger um Lestrigão, que se interessou mais pela carne fresca de Thalia do que pela proteção oferecida.
+</value>
+</string>
+<!--  1vs1 finales
+   -->
+<string key="HunterKillsWolfEnd">
+<!--  {0} = hunter's name, {1} = wolf's name
+   -->
+<value>
+Apenas {0} e {1} sobreviveram, e {1} queria mudar isso... Na calada da noite, se dirigiu ao chalé de {0} com a barriga roncando, sem nem desconfiar que Bianca Di Angelo 🎯 estava de vigília. {1} caiu com cinco flechas na cara, afinal, quem conta as flechas ao matar sua última ameaça?
+</value>
+</string>
+<string key="WolfKillsHunterEnd">
+<!--  {0} = hunter's name, {1} = wolf's name
+   -->
+<value>
+Apenas {0} e {1} sobreviveram, e {0}, sabendo que corria perigo, tentou dormir por algumas horas antes da vigília noturna... Mas {1} não tinha mais motivos para se esconder, e atacou {0} antes mesmo do sol se pôr. A única coisa que sobrou de {0} foram os ossos.
+</value>
+</string>
+<string key="CHKillsCultistEnd">
+<!--  {0} = last cultist's name, {1} = CH's name 
+   -->
+<value>
+Vendo um símbolo estranho rodeando o pescoço de {0}, {1} já se dá conta que {0} faz parte dos Comedores de Lótus. Então, {1} tira sua espada pela última vez e a crava no peito de {0}. Agora o acampamento está salvo da contaminação desses devoradores de flor!!
+</value>
+</string>
+<!--   Extend time 
+   -->
+<string key="SecondsAdded">
+<!--   0 - Seconds added by /extend command 
+   -->
+<!--   1 - Total seconds remaining 
+   -->
+<value>
+O tempo de entrada foi extendido em {0} segundos!\n{1} restantes para se juntar à partida
+</value>
+</string>
+<string key="SecondsRemoved">
+<!--   0 - Seconds removed by /extend command 
+   -->
+<!--   1 - Total seconds remaining 
+   -->
+<value>
+Tempo de entrada para o jogo reduzido em {0} segundos!\n{1} restantes para se juntar à partida.
+</value>
+</string>
+<string key="CantExtend">
+<value>
+Somente os administradores podem estender o tempo mais de uma vez!
+</value>
+</string>
+<string key="AllowExtendQ">
+<!--  {0} = "Allow" / "Disallow" string
+   -->
+<value>
+Os jogadores podem estender o tempo?\nAtual: {0} extender\nNote: Admins sempre poderão extender o tempo
+</value>
+</string>
+<string key="AllowExtendA">
+<!--  {0} = "Allow" / "Disallow" string
+   -->
+<value>
+{0}ei aos jogadores estender o tempo para se juntar à partida
+</value>
+</string>
+<string key="MaxExtendQ">
+<value>
+Escolha o número máximo de segundos para adicionar pelo comando /extend.\nConfiguração padrão: {0}\nAtual:{1}
+</value>
+</string>
+<string key="MaxExtendA">
+<value>
+Tempo máximo para estender o jogo foi mudado para {0} segundos
+</value>
+</string>
+<string key="WolvesEatDrunkBlockSecondKill">
+<value>
+Você é mais burro que Thor! {0} era Pólux 🍻! Agora você não poderá matar {1}...
+</value>
+</string>
+<string key="JoinButton">
+<value>Entrar na partida</value>
+</string>
+<string key="NotMember">
+<value>
+Você não pode entrar no jogo, pois não está no grupo {0}.
+</value>
+</string>
+<string key="JoinByButton">
+<value>
+Por favor, use o botão para entrar na partida ao invés do comando join.
+</value>
+</string>
+<string key="PlayerVoteCounts">
+<value>{0} jogadores votaram, {1} total.</value>
+</string>
+<string key="NoAutoJoin">
+<value>
+{0}, lembre que você também deve entrar no jogo pelo botão.
+</value>
+</string>
+<string key="GroupNotFound">
+<!--
+ This string might need rewording from some native speaker
+  
+-->
+<value>
+Não foi possível encontrar o grupo. Execute esse comando no grupo do qual deseja sair da lista de espera, ou adicione o link, id ou username do grupo na frente do comando.
+</value>
+</string>
+<string key="DeletedFromWaitList">
+<value>Você saiu da lista de espera do grupo {0}.</value>
+</string>
+<string key="HaveJoined">
+<!--   {0} = list of people who have joined 
+   -->
+<!--
+  NOTE: No space between {0} and joined. It will be added in the code if necessary
+  
+-->
+<value>
+Mais gente se juntou à partida nesses últimos 30 segundos! Deem as boas vindas a {0}.
+</value>
+</string>
+<string key="AllowCult">
+<value>Permitir C. de Lótus</value>
+</string>
+<string key="AllowTanner">
+<value>Permitir Nico di Angelo</value>
+</string>
+<string key="AllowFool">
+<value>Permitir Octavian</value>
+</string>
+<string key="EnableSecretLynch">
+<value>Permitir Linchamento Secreto</value>
+</string>
+<string key="RandomMode">
+<value>Permitir Modo Aleatório</value>
+</string>
+<string key="AllowExtend">
+<value>Permitir Extensão do Timer</value>
+</string>
+<string key="ShowRolesDeath">
+<value>Mostrar Papéis ao Morrer</value>
+</string>
+<string key="AllowFlee">
+<value>Permitir Fugas</value>
+</string>
+<string key="ShowIDs">
+<value>Mostrar IDs</value>
+</string>
+<string key="ShowIDsQ">
+<value>
+Mostrar as IDs numéricas de quem se junta à partida?\nAtual: {0}
+</value>
+</string>
+<string key="ShowIDsA">
+<value>{0}ei IDs de quem se junta à partida</value>
+</string>
+<string key="All">
+<!--   used when searching for groups in all the variants 
+   -->
+<value>Todos</value>
+</string>
+<string key="RandomModeQ">
+<value>
+Habilitar o modo aleatório? \nQuando o modo aleatório está habilitado, Chaos, Enforcamento Secreto, mostrar papeis quando morrerem e permitir Seita, Trouxa e Suicida serão determinados aleatoriamente toda vez que alguém iniciar um jogo.\nAtual:{0}
+</value>
+</string>
+<string key="RandomModeA">
+<value>O modo aleatório foi configurado para: {0}</value>
+</string>
+<string key="AllowNSFW">
+<value>Permitir Gifs NSFW</value>
+</string>
+<string key="AllowNSFWQ">
+<value>
+Permitir que os jogadores vejam gifs NSFW/+18?\nAtual: {0}
+</value>
+</string>
+<string key="AllowNSFWA">
+<value>{0} NSFW Gifs</value>
+</string>
+<string key="TannerEnd">
+<!--   0 - Tanner name 
+   -->
+<value>
+À medida que o sol começa a surgir no horizonte, {0} acorda e percebe o Acamapamento em silêncio. Logo, percebeu que todos haviam morrido, e {0}, anda até o Anfiteatro e percebe que todos estão mortos. Seu sonho de ser expulso pelo acampamento morre naquela mesma hora, então, {0} escala até o topo da parede e se joga direto na lava com seu último sorriso no seu rosto. Como seu ato final, levanta a mão com o polegar levantado. O Exterminador do Futuro?
+</value>
+<value>
+{0} acorda de manhã, sozinho. {0} percebe o quão suas tentativas têm sido inuteis, não conseguido ajuda do Acampamento para satisfazer seu desejo masoquista de ser expulso. {0} pega uma corda e se enforca, percebendo que ninguém poderia acompanhá-lo em seu sonho, já que ninguém sobrou.
+</value>
+</string>
+<string key="SorcererEnd">
+<!--   0 - Sorcerer name 
+   -->
+<value>
+{0} acorda depois de uma noite trabalhando e percebe que todos os Lestrigões estão mortos, alguns com suas cabeças cortadas. Com uma dor no coração e em prantos, {0} pega seus instrumentos de magia e sai do Acampamento, partindo para um novo começo em uma vila muito distante dali.
+</value>
+<value>
+E mesmo com os esforços de {0}, seus amigos lestrigões descansam sem vida embaixo da terra. Mesmo se os lestrigões tivessem trazido a vitória, não teria ninguém para compartilhar o sabor da vitória, tendo nenhum resto de Campistas. {0} pega sua bola de cristal e, silenciosamente, desaparece em procura de novos lestrigões, novos aliados para cometer novos crimes contra a humanidade.
+</value>
+</string>
+<string key="WhatVariantVets">
+<value>
+Qual variante?\nAtual: {0}\nComo você jogou mais de 500 jogos, você também pode participar:
+</value>
+</string>
+<string key="Skip">
+<value>Sair</value>
+</string>
+<!--   New Roles, April 2018 
+   -->
+<string key="DGTransformToLycan">
+<!--   0 - target's name 
+   -->
+<!--   1 - teammates's name 
+   -->
+<value>
+{0} morreu, e você foi transformado em um Canadense. Seus parceiros, se tiver, são: {1}
+</value>
+</string>
+<string key="DGTransformToImposter">
+<value>
+{0} morreu, e você foi transformado em um Lestrigão Trapaceiro. Seus parceiros, se tiver, são: {1}
+</value>
+</string>
+<string key="NegSeerSees">
+<!--   0 - target's name 
+   -->
+<!--   1 - role that they are not 
+   -->
+<value>Você vê que {0} NÃO é {1}!</value>
+</string>
+<string key="AskSandman">
+<value>Você quer adormecer os jogadores hoje?</value>
+</string>
+<string key="SandmanSleepAll">
+<value>
+Enquanto os campistas conversam entre si, {0} sai andando para sua casa e começa a cantar uma melodia bem tranquila. Hoje à noite, todos irão ter um sono bem pesado e ninguém poderá usar suas ações noturnas.
+</value>
+</string>
+<string key="SandmanNight">
+<value>
+Enquanto todos caminham para suas casa, os aldeões caem no meio do caminho por exaustão e dormem ali mesmo...
+</value>
+</string>
+<string key="AllowSpellcasterQ">
+<value>Permitir a existência do Místico?\nAtual: {0}</value>
+</string>
+<string key="AllowSpellcasterA">
+<value>Existência de Místico definida como: {0}</value>
+</string>
+<string key="AllowSpellcaster">
+<value>Permitir Místico</value>
+</string>
+<string key="AllowThiefQ">
+<value>Permitir a existência do Ladrão?\nAtual: {0}</value>
+</string>
+<string key="AllowThiefA">
+<value>Existência de Ladrão definida como: {0}</value>
+</string>
+<string key="AllowAlchemistQ">
+<value>Permitir a existência do Alquimista?\nAtual: {0}</value>
+</string>
+<string key="AllowAlchemistA">
+<value>Existência de Alquimista definida como: {0}</value>
+</string>
+<string key="AllowAlchemist">
+<value>Permitir Alquimista</value>
+</string>
+<string key="AllowThief">
+<value>Permitir Ladrão</value>
+</string>
+<string key="RoleInfoWolfMan">
+<value>
+Você é o lestrigão 👱‍🌚, um bondoso campista 👱. Mas, por ser um ciclope, o Oráculo de Delfos se confunde e pensa que você é um lestrigão! Coitado...
+</value>
+</string>
+<string key="WolfMan">
+<value>Tyson 👱🌚</value>
+</string>
+<string key="AboutWolfMan">
+<value>
+Você é Tyson 👱‍🌚, um Campista comum, mas como você é um ciclope, o Oráculo se confunde e pensa que você é um Lestrigão, mesmo não sendo! Ah não... Que peninha.
+</value>
+</string>
+<string key="RoleInfoLycan">
+<value>
+Você é um Canadense 🐺🌝! O Candense é um Lestrigão, mas, quando o Oráculo de Delfos te ver, ficará confuso e você será visto como um Campista 👱! Legal, não!? :)
+</value>
+</string>
+<string key="Lycan">
+<value>Canadense 🐺🌝</value>
+</string>
+<string key="AboutLycan">
+<value>
+O Canadense 🐺🌝 é um Lestrigão, mas quando o Oráculo de Delfos vê ele fica tão confuso com o resultado que irá aparecer como um Campista 👱, mas cuidado! Não há Campista no modo Mighty.
+</value>
+</string>
+<string key="RoleInfoOracle">
+<value>
+Você é o Sibila 🌀. Cada noite você poderá ver alguém, mas, você verá o que eles NÃO são. Você verá um papel de alguém no jogo que está vivo. Então, preste atenção, pois os papeis que serão mostrados são de jogadores vivos. :) Saiba mais: /aboutOracle
+</value>
+</string>
+<string key="Oracle">
+<value>Sibila 🌀</value>
+</string>
+<string key="AboutOracle">
+<value>
+A Sibila 🌀 será informado do papel que o jogador NÃO é. Os papéis mostrados a ele, são de jogadores vivos e só podem ser olhados de noite e escolha bem.
+</value>
+</string>
+<string key="RoleInfoSandman">
+<value>
+Você é o Will Solace 💤, apenas uma vez no jogo você poderá usar seu dom parar colocar todo mundo em um sono profundo que eles não poderão usar seu papel à noite.
+</value>
+</string>
+<string key="Sandman">
+<value>Will Solace 💤</value>
+</string>
+<string key="AboutSandman">
+<value>
+Uma vez por jogo, o Will Solace 💤, poderá usar seu papel para fazer adormecer as pessoas e elas não usarão seus papéis durante a noite. Se for utilizada no início do jogo, nem o Oráculo de Delfos nem nenhum outro papel que trabalhe a noite para encontrar os vilões poderá ser ajudado, então escolha sabiamente o dia que irá usar sua ação pois pode atrapalhar. O Will Solace 💤 não irá aparecer na mesma partida que o Jason Grace \n\nChances de conversão para os Comedores de Lótus 👤: 60% \nChance de roubo pelo Connor Stoll 😈: 30% \nTime: Acampamento
+</value>
+</string>
+<string key="RoleInfoPacifist">
+<value>
+Você é o Magnus Chase ☮️, filho de Frey. Uma vez em cada jogo, você pode usar a paz de Frey e fazer todos os outros serem desarmados. Eles não poderão votar neste dia.
+</value>
+</string>
+<string key="Pacifist">
+<value>Magnus Chase ☮️</value>
+</string>
+<string key="AboutPacifist">
+<value>
+O Magnus Chase ☮️ é uma pessoa pacífica e não suporta a violência no Acampamento. Uma vez por jogo, ele pode invocar a paz de Frey e todo mundo vai se lembrar da importância do amor e da liberdade. O Acampamento não poderá votar e, apesar de não parecer, o Magnus joga pelo Acamapamento.
+</value>
+</string>
+<string key="Demonstrate">
+<value>Você quer invocar a paz de Frey agora?</value>
+</string>
+<string key="PacifistDemonstrating">
+<value>
+Enquanto todos discutem quem expulsar em seguida, Magnus Chase {0} começa a invocar a paz de Frey na rua. Todos se lembram: o amor sempre vence a guerra. Eles decidem, então, que eles não votarão no dia seguinte.
+</value>
+</string>
+<string key="NoVotingPacifist">
+<value>
+Como o Magnus ☮️ invocou a paz de Frey, o acampamento não pode expulsar ninguém.
+</value>
+</string>
+<string key="PacifistDemonstratingWhileLynching">
+<value>
+Quando a expulsão começa, {0} não pode mais conter sua raiva. Os campistas observam fascinados a paixão do Magnus pelo amor e pela paz. Como o amor sempre vence a guerra, o voto deles não contará.
+</value>
+</string>
+<string key="RoleInfoThief">
+<value>
+Você é o Connor Stoll 😈! Você gosta de roubar a vida das pessoas. Toda noite, você pode escolher alguém de quem você quer roubar o papel. Se você tiver sorte, você consegue roubar seu papel e ele se tornará o Connor!
+</value>
+</string>
+<string key="Thief">
+<value>Connor Stoll 😈</value>
+</string>
+<string key="AboutThief">
+<value>
+O Connor Stoll 😈 é uma pessoa sem lei e sem papel. Para ganhar um papel que o favoreça, ele o roubará de outros jogadores à noite. Em troca, o jogador que perdeu o papel se tornará o Connor, claro que há papeis que há chance de matar o Connor nessa empreitada, mas vale o risco, certo?
+</value>
+</string>
+<string key="ThiefKilledByCH">
+<value>
+O Connor tentou roubar o Percy Jackson 💂 na noite passada. Normalmente, o Percy apenas corta Integrantes dos Comedores de Lótus com sua espada, mas ele fez uma exceção. {0} está morto.
+</value>
+</string>
+<string key="ThiefDiesByCH">
+<value>
+Você tenta roubar o papel de {0}, mas você está muito barulhento. Ele acorda e rapidamente corta sua garganta.
+</value>
+</string>
+<string key="ThiefKilledByWW">
+<value>
+O Connor tentou roubar um Lestrigão na noite passada. Em vez disso, os lestrigões estão felizes por terem um lanche da meia-noite. {0} está morto.
+</value>
+</string>
+<string key="ThiefDiesByWW">
+<value>
+Você tenta roubar o papel de {0}, mas você é confrontado por um lestrigão. Você está morto.
+</value>
+</string>
+<string key="ThiefKilledByHunter">
+<value>
+O Acampamento é acordado com um grito de "Morra, filho de Hermes maldito!", vindo do Chalé de Ártemis, onde Bianca Di Angelo 🎯 vive seus dias no Acampamento. {0} tentou roubar a pessoa errada na noite passada.
+</value>
+</string>
+<string key="ThiefDiesByHunter">
+<value>
+Você tenta roubar o papel de {0}, mas ele acorda. {0} encontra seu Arco de confiança e atira em sua cabeça! Droga!
+</value>
+</string>
+<string key="ThiefKilledBySk">
+<value>
+O Acampamento encontra {0} na praça da cidade, com a palavra "LADRÃO" cortada em seu peito. Parece que {0} tentou roubar a pessoa errada...
+</value>
+</string>
+<string key="ThiefDiesBySk">
+<value>
+Você tenta roubar {0}. Ele parece adormecido, mas quando você se aproxima, ele de repente pega você e coloca uma faca na sua garganta. Você morreu.
+</value>
+</string>
+<string key="ThiefTakesRole">
+<value>
+Você conseguiu roubar de {0}. Sua nova função é {1}. {0} é o Connor Stoll agora!
+</value>
+</string>
+<string key="PlayerBecomesThief">
+<value>
+Ah não! Conno Stoll roubou sua identidade ontem à noite! Por descuido, ele deixou a dele em seu chalé. Para ganhar uma nova identidade, você se torna o Connor...
+</value>
+</string>
+<string key="SeerChanged">
+<value>
+Estranho. Parece que, de alguma forma, o Oráculo de Delfos mudou na noite passada. {0} é agora o Oráculo de Delfos!
+</value>
+</string>
+<string key="MasonChanged">
+<value>
+Quando a próxima reunião do conselho dos Pauls começa, você percebe que {0} está faltando, mas você tem um novo Paul BVlofis. {1} é agora um de vocês!
+</value>
+</string>
+<string key="ThiefToMason">
+<value>
+Você roubou o papel {0} e se tornou Paul Blofis 👷! Seus colegas de equipe (se houver algum) são: {1}
+</value>
+</string>
+<string key="ThiefToWolf">
+<value>
+Você roubou o papel de {0} e se tornou {1}. Seus colegas de alcatéia (se houver algum) são: {2}
+</value>
+</string>
+<string key="WwChanged">
+<value>
+Um de seus membros da matilha {0} de alguma forma se livrou da maldição. No mesmo momento, você tem outro membro da equipe. {1} se juntou aos lestrigões!
+</value>
+</string>
+<string key="CultChanged">
+<value>
+Um dos membros mudou... {0} deixou os Comedores de Lótus, mas {1} se juntou esta noite!
+</value>
+</string>
+<string key="ThiefToCult">
+<value>
+Ao roubar o papel de {0}, você se juntou aos Comedores de Lótus! Seus colegas (se houver algum) são: {1}
+</value>
+</string>
+<string key="ThiefTargetDead">
+<value>Você tentou roubar {0}, mas ele já está morto.</value>
+</string>
+<string key="OnlyThiefLeft">
+<value>
+Enquanto o resto do acampamento morre, apenas o ladrão permanece de pé. Com mais ninguém para roubar, ele não tem mais nada...
+</value>
+</string>
+<string key="NoSteal">
+<value>
+Enquanto você tenta se aproximar de {0}, você percebe que ele está com um sono leve. Você decide que roubar dele não é uma boa ideia esta noite.
+</value>
+</string>
+<string key="WhoToSteal">
+<value>Quem você quer roubar?</value>
+</string>
+<string key="PlayerStartedFoolishGame">
+<value>
+{0} seja bem-vindo à Cidade Do Octavian! Clique no botão baixo para entrar na diversão... E provavelmente morrer :P
+</value>
+</string>
+<string key="SerialKillerKillsYou">
+<value>
+Você acorda no meio da noite, ouvindo uma risada sinistra enquanto o Empousa retira seus órgãos. Você está morto.
+</value>
+</string>
+<string key="CHkillsYou">
+<value>
+Enquanto você se ajoelhava no seu altar de adoração, um homem de preto de repente invadiu sua casa e decapitou você.
+</value>
+</string>
+<string key="RoleInfoAlchemist">
+<value>
+Você é o Dioniso 🍵. Dedicado à arte de fazer poções, você finalmente encontrou a cura para a maldição dos Lestrigões. Mas é uma tarefa complicada. A poção leva 3 noites para terminar e tem um cheiro forte que os lestrigões podem perceber. E pior: se você der a poção para um campista, ele se transformará em um Lestrigão e matará você.
+</value>
+</string>
+<string key="Alchemist">
+<value>Dioniso 🍵</value>
+</string>
+<string key="AboutAlchemist">
+<value>
+O Dioniso 🍵 sua função é fazer uma poção para curar um Lestrigão, o transformando em um simples campista 👱. A poção demora 3 noites pra ser concluída e a Alcateia pode sentir o cheiro. Caso consiga concluir sua poção sem ser morto ele poderá escolher um jogador para quem dará a poção. É preciso muito cuidado porque se der a poção para alguém que não for Lestrigão, essa pessoa se transforma e mata o Dioniso. Então, se você for Dioniso, só jogue a poção se tiver certeza de quem é o Lestrigão porque criar um novo Lestrigão irá ajudar o time adversário.
+</value>
+</string>
+<string key="AlchemistAlreadyDead">
+<value>
+Você queria forçar sua poção na boca de {0}, mas ele já está morto. Droga! Você terá que refazer sua poção!
+</value>
+</string>
+<string key="AskAlchemist">
+<value>Você gostaria de começar a fazer a poção agora?</value>
+</string>
+<string key="ThiefDiesBySpellcaster">
+<value>
+Você tenta roubar {0}, mas quando entra na casa, {0} levanta cantando com um globo vermelho brilhante na mão. Você tenta fugir, mas é tarde demais. Você está morto.
+</value>
+</string>
+<string key="CultConvertSpellcaster">
+<value>
+Você tentou converter o Místico ☄️ na noite passada. No entanto, ele já tem outros aliados. Um feitiço mortal atinge {0} e o mata imediatamente.
+</value>
+</string>
+<string key="RulerQuestion">
+<value>Você gostaria de governar os outros hoje?</value>
+</string>
+<string key="RoleInfoRuler">
+<value>
+Você é a Reyna 🤴! Como pretora, você tem autoridade neste acampamento... Pelo menos por um dia! Você pode mostrar ao acampamento seus cachorros Aurum e Argentum, e eles vão deixar você decidir a expulsão por um dia.
+</value>
+</string>
+<string key="Ruler">
+<value>Reyna 👑</value>
+</string>
+<string key="AboutRuler">
+<value>
+Você é Reyna 🤴! Como Pretora, você tem autoridade neste acampamento. Pelo menos por um dia! Você pode mostrar ao acampamento seus cachorros Aurum e Argentum, e eles vão deixar você decidir a expulsão por um dia, escolha bem.
+</value>
+</string>
+<string key="RulerLynch">
+<value>
+Como a Reyna 🤴 se revelou, ela decidirá quem morrerá hoje!
+</value>
+</string>
+<string key="RulerVictim">
+<value>
+A Reyna 🤴 usou sua responsabilidade para com o Acampamento e decidiu que {0} será expulso(a)! {1}
+</value>
+</string>
+<string key="RulerDiedBeforeLynch">
+<value>Como a Reyna 🤴 morreu, os campistas podem votar!</value>
+</string>
+<string key="RulerReveal">
+<value>
+Enquanto os campistas discutiam sobre a próxima vítima, {0} dá um passo à frente, dando a todos uma visão detalhada dos seus cachorros. Hoje, a Reyna 🤴 decidirá quem será linchado.
+</value>
+</string>
+<string key="RulerNoVote">
+<value>
+A Reyna 🤴 não podia assumir a responsabilidade. Como ela não votou a tempo, o dia acabou.
+</value>
+</string>
+<string key="AskImposter">
+<value>Você quer "revelar" agora?</value>
+</string>
+<string key="ThiefTakesImposter">
+<value>
+Você roubou {0} e chegou a ser {1}! Você pode impor esse papel: {2}
+</value>
+</string>
+<string key="ImposterRoleInfo">
+<value>Você está impondo o papel de {0}!</value>
+</string>
+<string key="ImposterWolf">
+<value>Lestrigão Trapaceiro 🐑</value>
+</string>
+<string key="RoleInfoImposterWolf">
+<value>
+Você é o Lestrigão Trapaceiro 🐑! Você é um lobo em pele de cordeiro, você pode se "revelar" como um papel aleatório que os deuses escolheram para você a qualquer momento no jogo. Mas esteja ciente de que apenas a mensagem aparecerá. O efeito do papel não vai acontecer. Saiba mais: /aboutTrickster
+</value>
+</string>
+<string key="AboutImposterWolf">
+<value>
+Você é o Lestrigão Trapaceiro 🐑! Você conhece o lobo na pele de cordeiro? Então, você pode se "revelar" como um papel aleatório que os deuses escolheram para você a qualquer momento no jogo, mas esteja ciente de que apenas a mensagem aparecerá. O efeito do papel não vai acontecer no jogo então preste atenção para que o verdadeiro dono já não tenha se revelado
+</value>
+</string>
+<string key="AboutSpellcaster">
+<value>
+Você é o Místico ☄️! Você se alia aos lestrigões. Toda noite, você pode optar por encantar uma pessoa. Essa pessoa será marcada e, com sorte, será mordida pelo Lestrigão. (30% de chance). Mas tenha cuidado com a sua vida! A marca dura apenas enquanto você estiver vivo e se tentar marcar uma pessoa protegida pela Thalia Grace, você morre.
+</value>
+</string>
+<string key="RoleInfoSpellcaster">
+<value>
+Você é o Místico ☄️! Você se alia aos Lestrigões. Toda noite, você pode optar por encantar uma pessoa. Essa pessoa será marcada e, com sorte, será mordida pelo Lestrigão. (30% de chance). Mas tenha cuidado com a sua vida! A marca dura apenas enquanto você estiver vivo.
+</value>
+</string>
+<string key="Spellcaster">
+<value>Místico ☄️</value>
+</string>
+<string key="AskSpellcaster">
+<value>Quem você quer encantar essa noite?</value>
+</string>
+<string key="SpellCasterAlreadyMarked">
+<value>
+Você tenta encantar {0}, mas já existe uma marca para os lestrigões.
+</value>
+</string>
+<string key="SpellcasterMarkedDead">
+<value>Você quer amaldiçoar {0}, mas ele já está morto.</value>
+</string>
+<string key="SpellCasterMarked">
+<value>Você marcou com sucesso {0}! WOP WOP.</value>
+</string>
+<string key="SpellCasterFeelingMark">
+<value>
+Você sente os Místico ☄️s amaldiçoando você. Você está marcado! : O
+</value>
+</string>
+<string key="SpellCasterDeathGA">
+<value>
+Você tenta amaldiçoar {0} mas Thalia Grace 👼 o protegeu esta noite e desviou seu feitiço. Você está morto.
+</value>
+</string>
+<string key="SpellcasterMarkVanish">
+<value>
+De repente, você se sente mais leve, como se uma maldição tivesse sido tirada de você. A marca do Místico ☄️ deixou o seu corpo.
+</value>
+</string>
+<string key="SpellcasterGA">
+<value>
+Você tenta marcar {0} com sua maldição, mas Thalia Grace 👼 o protege. Seu feitiço reflete nas asas da glória e mata você imediatamente.
+</value>
+</string>
+<string key="SpellcasterGAGroupMessage">
+<value>
+Como {0} está faltando na manhã seguinte, os aldeões olham para dentro do chalé, apenas para encontrá-lo deitado no chão, com uma horrível marca de feitiço no peito dele. Por perto, eles encontram penas em todos os lugares.
+</value>
+</string>
+<string key="AlchemistCaught">
+<value>
+Seu nariz sensível captura um cheiro estranho e desagradável do chalé de {0}.
+</value>
+</string>
+<string key="AlchemistCuredYou">
+<value>
+Você foi convidado a entrar no chalé de {0}, que lhe prometeu o elixir da vida, mas, em vez disso, o curou de sua maldição. Você é agora um simples campista 👱.
+</value>
+</string>
+<string key="AlchemistNoCuredYou">
+<value>
+Você foi convidado a entrar na cabana de {0}, que prometeu o elixir da vida, mas ele te envenenou! Você sente uma grande dor enquanto se transforma em um Lestrigão.
+</value>
+</string>
+<string key="AlchemistCured">
+<value>
+Você dá {0} a poção, animado para ver o trabalho duro de tantas noites finalmente compensar! E isso acontece! Você o cura de sua maldição.
+</value>
+</string>
+<string key="AlchemistNoCured">
+<value>
+Você dá {0} a poção, animado para ver o trabalho duro de tantas noites finalmente compensar! Mas em vez disso, ele começa a se contorcer e se revirar no chão, se transformando em um Lestrigão. Antes que você possa reagir, a criatura pula em você. Você está morto.
+</value>
+</string>
+<string key="AlchemistGivePotion">
+<value>
+Sua poção está finalmente terminada! Para quem você gostaria de dá-la?
+</value>
+</string>
+<string key="RebrewPotion">
+<value>
+Você não conseguiu dar sua poção para ninguém. Você terá que refazê-la!
+</value>
+</string>
+<string key="MarkedBitten">
+<value>
+Graças ao Místico ☄️, {0} foi marcado com um feitiço útil e você conseguiu infectá-lo. Ele vai se transformar em um Lestrigão na noite seguinte.
+</value>
+</string>
+<string key="AlchemistDied">
+<value>
+O Acampamento quer começar a votar, mas não consegue encontrar {0}. Eles olham para seu chalé, encontrando seu corpo dilacerado. O Dioniso 🍵 morreu.
+</value>
+</string>
+<string key="Leech">
+<value>Beckendorf 🔰</value>
+</string>
+<string key="AboutLeech">
+<value>
+Você é o Beckendorf 🔰. No início do jogo, você escolherá uma pessoa pela qual morrerá. Se essa pessoa for morrer, você morrerá por ele e essa pessoa sobreviverá. Até que você morra, você é da equipe da aldeia. Mas depois de ter morrido por alguém, só pode ganhar se essa pessoa vencer.
+</value>
+</string>
+<string key="RoleInfoLeech">
+<value>
+Você é o Charles Beckendorf 🔰, enviado pelos deuses para proteger uma pessoa na aldeia da morte. Quando essa pessoa for atacada, você morrerá por essa pessoa, para garantir que alguém especial continue cumprindo seu dever.
+</value>
+</string>
+<string key="LeechQuestion">
+<value>Por quem você morrerá?</value>
+</string>
+<string key="LeechNoAnswer">
+<value>
+Como você não escolheu uma pessoa por quem você gostaria de se sacrificar, o destino escolheu {0} para você.
+</value>
+</string>
+<string key="LeechDeathGroupMessage">
+<value>
+Os campistas se reunem na manhã seguinte, apenas para encontrar {0} deitado na perto da fogueira que nunca se apaga, com runas e símbolos de deuses antigos em torno de seu corpo sem vida. O Charles Beckendorf 🔰 morreu por outra pessoa esta noite.
+</value>
+</string>
+<string key="LeechDiedForYou">
+<value>
+Você acorda em seu chalé, sentindo como se algo estranho tivesse acontecido. Você se lembra de ter morrido, mas algo ou alguém deve ter te salvado. O nome {0} está impresso em sua mente. Você sabe que ele está morto agora para você poder viver.
+</value>
+</string>
+<string key="NewLeechRM">
+<value>
+Você é o Charles Beckendorf 🔰! Os deuses decidiram que você morrerá por {0}!
+</value>
+</string>
+<string key="LeechLynchDeath">
+<value>
+O Acampamento estava prestes a expulsar {0}, mas de repente ele começa a brilhar intensamente. A luz fica insuportável, eles têm que fechar os olhos. Quando eles os abrem novamente, eles encontram o Beckendorf, {1}, no portal de pedra, com suas malas prontas para partir enquanto {0} está próximo, ileso.
+</value>
+</string>
+<string key="LeechGunner">
+<value>
+A Clarisse {2} aponta para {0} e atira em sua cabeça. Mas ele está enganado, pois {1} é o único que está morto, enquanto {0} está parado, completamente ileso.
+</value>
+</string>
+<string key="LeechHunterDeath">
+<value>
+A Bianca Di Angelo {2} aponta seu arco apressadamente para {0} e atira em seu último momento. Mas ele deve ter perdido sua última flecha, já que {1} é o único atingido, enquanto {0} está lá, completamente ileso.
+</value>
+</string>
+<string key="LeechDies">
+<value>
+Como {0} está prestes a morrer, você começa a orar para os deuses, para que eles tirem sua vida. E eles escutam. Você morre, mas {0} sobreviverá.
+</value>
+</string>
+<string key="AboutDarkOwl">
+<value>
+Você é a Silena Beauregard 🦉. Você se alia aos lestrigões. À noite, você pode passear pelo acampamento e observar uma pessoa pela janela. Você saberá se essa pessoa está acordada ou não. Se a pessoa que você observar for devorada por lestrigões, você saberá os nomes de todos eles.
+</value>
+</string>
+<string key="RoleInfoDarkOwl">
+<value>
+Você é a Silena Beauregard 🦉. Você se alia aos lestrigões. À noite, você pode passear pelo acampamento e observar uma pessoa pela janela. Você saberá se essa pessoa está acordada ou não. Se a pessoa que você observar for devorada por lestrigões, você saberá os nomes de todos eles.
+</value>
+</string>
+<string key="DarkOwl">
+<value>Silena Beauregard 🦉</value>
+</string>
+<string key="NoNightAction">
+<value>
+Você não pode ver muito através da janela, mas não há velas acesas dentro da casa de {0}. Ele provavelmente está dormindo.
+</value>
+</string>
+<string key="NightAction">
+<value>
+Você só consegue ver os quadros através das janelas de {0}, mas há luz dentro da casa. Parece que {0} está acordado hoje à noite!
+</value>
+</string>
+<string key="ProwlerSeesEaten">
+<value>
+Ao andar pela casa de {0}, você percebe gritos lá dentro. Você se esconde por perto, apenas para assistir {1} sair da casa em seus objetivos noturnos amaldiçoados. Você encontrou seus aliados.
+</value>
+</string>
+<string key="DarkOwlQuestion">
+<value>Em qual chalé você quer dar uma olhada essa noite?</value>
+</string>
+<string key="RoleInfoWiseElder">
+<value>
+Você é a Ella 📚. Uma harpia que pode ter profecias, prejudiciais ou não. Com essa habilidade, você pode observar uma pessoa uma vez por dia e descobrir se eles podem matar os outros ou não.
+</value>
+</string>
+<string key="WiseElder">
+<value>Ella 📚</value>
+</string>
+<string key="AboutWiseElder">
+<value>
+Você é a Ella 📚. Uma harpia que pode ter profecias, prejudiciais ou não. Com essa habilidade, você pode observar uma pessoa uma vez por dia e descobrir se eles podem matar os outros ou não, mas apesar de tanta habilidade, Ella vê Clarisse, Bianca Di Angelo 🔫 e Percy Jackson 💂 como dispostos a matar, e eles estão, mas pelo bem do Acamapamento.
+</value>
+</string>
+<string key="WiseElderAction">
+<value>Quem você gostaria de observar hoje?</value>
+</string>
+<string key="CanKill">
+<value>
+Você vê que {0} está disposto a matar alguém nesse Acampamento.
+</value>
+</string>
+<string key="CannotKill">
+<value>
+Você vê que {0} é uma pessoa inofensiva, que não pretende matar ninguém.
+</value>
+</string>
+<string key="Control">
+<value>Quais ações você quer controlar hoje à noite?</value>
+</string>
+<string key="ForcedActionOne">
+<value>
+{0} tem uma ação noturna! Impressionante! O que você quer que ele faça?
+</value>
+</string>
+<string key="ForcedActionTwo">
+<value>
+{0} tem outra ação noturna! O que você quer que ele faça?
+</value>
+</string>
+<string key="NoAction">
+<value>
+Você sente que {0} está dormindo. Você não pode controlá-lo, que pena...
+</value>
+</string>
+<string key="PuppetMaster">
+<value>Alex Fierro 🕴</value>
+</string>
+<string key="AboutPuppetMaster">
+<value>
+Você é Alex Fierro 🕴. Você é um (ou uma) mestre em manipular os outros. Toda noite, você pode usar seus poderes especiais para invadir a mente de uma pessoa (ou grupo) fazer o que quiser de acordo com o papel de quem você devocê escolheu manipular, até que apenas você permaneça vivo (ou viva).
+</value>
+</string>
+<string key="RoleInfoPuppetMaster">
+<value>
+Você é o Alex Fierro 🕴. Você é um (ou uma) mestre em manipular os outros. Toda noite, você pode usar seus poderes especiais para fazer uma pessoa (ou grupo) fazer o que quiser até que apenas você permaneça vivo (ou viva, já que você tem gênero fluido).
+</value>
+</string>
+<string key="PuppetMasterForceAlchemistYes">
+<value>
+Conforme você trabalha à noite, você sente uma presença entrar em sua mente, forçando-o a começar a produzir imediatamente. Você não pode fazer nada, apenas observar como seu corpo faz o que Alex Fierro lhe diz. Ah não!
+</value>
+</string>
+<string key="PuppetMasterForceAlchemistNo">
+<value>
+Conforme você trabalha à noite, você sente uma presença entrar em sua mente, forçando você a ir dormir. Você se sente cada vez mais cansado, enquanto sonha com monstros e demônios...
+</value>
+</string>
+<string key="WolvesForced">
+<value>
+Com a dor ainda persistente em seu corpo vinda da transformação, você sente a presença de uma pessoa poderosa entrar em sua mente. Muito fraco para lutar contra isso, você está relutante em matar {0}, ao invés de quem você queria comer hoje à noite.
+</value>
+</string>
+<string key="Forced">
+<value>
+Uma entidade forte entrou em sua mente na noite passada. Seja qual for a escolha que você fez antes, Alex Fierro fez você escolher {0} !
+</value>
+</string>
+<string key="SpellCasterEnd">
+<value>
+Sem lestrigões vivos, {0} tornou-se inútil. Não há mais motivos para amaldiçoar alguém, se ninguém pode ser mordido.
+</value>
+</string>
+<string key="DarkOwlEnd">
+<value>
+Sem lestrigões vivos, {0} tornou-se inútil. Silena Beauregard arruma suas coisas e segue para a cidade.
+</value>
+</string>
+<string key="PuppetMasterSuicide">
+<value>
+Risos estranhos podem ser ouvidos no acampamento, quando {0} força {1} a se mandar. Alex Fierro observa sua última vítima ir embora do acampamento, finalmente satisfeito com seu trabalho.
+</value>
+<value>
+Risos estranhos podem ser ouvidos na aldeia, pois {0} força {1} a se cortar lentamente. Alex Fierro observa sua última vítima saindo do acampamento, finalmente satisfeito com seu trabalho.
+</value>
+</string>
+<string key="PuppetMasterWins">
+<value>
+O Acampamento fica em silêncio, pois apenas Alex Fierro fica de pé. Ele faz suas malas, já animado para continuar sua vida em uma cidade próxima.
+</value>
+</string>
+<string key="PuppetMasterCupid">
+<value>
+Alex Fierro decidiu que ele é o melhor Eros 🏹 esta noite. Qualquer que seja o par que você escolheu, ele escolheu {0} e {1} .
+</value>
+</string>
+<string key="PuppetMasterKillCult">
+<value>
+Os campistas acordam para encontrar {0} pendurado no Pinheiro de Thalia, ainda completamente vestido com a roupa dos Comedores de Lótus. Alex Fierro deve ter se divertido na noite passada, vendo ele se matar.
+</value>
+</string>
+<string key="PuppetMasterKillThief">
+<value>
+Gritos podem ser ouvidos, quando alguém encontra o corpo deformado de {0} ao lado da torre do sino. Parece que Connor Stoll pulou sozinho, mas quem cometeria suicídio assim...
+</value>
+</string>
+<string key="CultConvertPuppetMaster">
+<value>
+Você envia {0} para converter {1}, mas ele não retorna, e essa foi a última vez que você o viu vivo.
+</value>
+</string>
+<string key="CultSendToPuppetMaster">
+<value>
+Ao entrar pela janela de {0}, você já percebe que não foi uma boa ideia. Alex Fierro assume o seu corpo e você começa a perder a cabeça. A última coisa que você lembra é que você estava caminhando para a forca...
+</value>
+</string>
+<string key="ThiefDiesByPuppetMaster">
+<value>
+Você tenta roubar {0} mas ele acorda! Você percebe o Alex Fierro assumindo o controle sobre seu corpo. Ainda sendo capaz de ver e sentir qualquer coisa, você não pode fazer nada enquanto seu corpo é forçado a caminhar para cima da torre do sino e, finalmente, você se joga de lá.
+</value>
+</string>
+<string key="MissingAch">
+<value>Você está perdendo as seguintes conquistas:</value>
+</string>
+<string key="YourAch">
+<value>Suas conquistas</value>
+</string>
+<string key="Achievement1Name">
+<value>Bem-vindo ao Inferno</value>
+</string>
+<string key="Achievement1Descr">
+<value>Jogue uma partida</value>
+</string>
+<string key="Achievement2Name">
+<value>Bem-vindo ao Hospício</value>
+</string>
+<string key="Achievement2Descr">
+<value>Jogue no modo Caos</value>
+</string>
+<string key="Achievement3Name">
+<value>Paciente com Alzheimer</value>
+</string>
+<string key="Achievement3Descr">
+<value>Jogue uma partida com o pack de Amnesia</value>
+</string>
+<string key="Achievement4Name">
+<value>O HAI DER!</value>
+</string>
+<string key="Achievement4Descr">
+<value>Jogue uma partida com o desenvolvedor</value>
+</string>
+<string key="Achievement5Name">
+<value>Espião vs Espião</value>
+</string>
+<string key="Achievement5Descr">
+<value>
+Jogue uma partida no modo secreto (sem papel revelado)
+</value>
+</string>
+<string key="Achievement6Name">
+<value>Explorador</value>
+</string>
+<string key="Achievement6Descr">
+<value>Jogue ao menos 2 partidas em 10 grupos diferentes</value>
+</string>
+<string key="Achievement7Name">
+<value>Poliglota</value>
+</string>
+<string key="Achievement7Descr">
+<value>
+Jogue ao menos 2 partidas usando 10 diferentes packs de linguagem
+</value>
+</string>
+<string key="Achievement8Name">
+<value>Não Tenho Ideia do que Estou Fazendo</value>
+</string>
+<string key="Achievement8Descr">
+<value>Jogue no modo Secreto Amnesia</value>
+</string>
+<string key="Achievement9Name">
+<value>Demofobia</value>
+</string>
+<string key="Achievement9Descr">
+<value>Jogue uma partida com 35 jogadores</value>
+</string>
+<string key="Achievement10Name">
+<value>Introvertido</value>
+</string>
+<string key="Achievement10Descr">
+<value>Jogue uma partida com 5 jogadores</value>
+</string>
+<string key="Achievement11Name">
+<value>Safadinho!</value>
+</string>
+<string key="Achievement11Descr">
+<value>Jogue uma partida usando o pack de NSFW</value>
+</string>
+<string key="Achievement12Name">
+<value>Dedicado</value>
+</string>
+<string key="Achievement12Descr">
+<value>Jogue 100 partidas</value>
+</string>
+<string key="Achievement13Name">
+<value>Obcecado</value>
+</string>
+<string key="Achievement13Descr">
+<value>Jogue 1000 partidas</value>
+</string>
+<string key="Achievement14Name">
+<value>Aqui está Johnny!</value>
+</string>
+<string key="Achievement14Descr">
+<value>Mate 50 vezes como Serial Killer</value>
+</string>
+<string key="Achievement15Name">
+<value>Eu te Dou Cobertura</value>
+</string>
+<string key="Achievement15Descr">
+<value>Salve 50 pessoas como Anjo da Guarda</value>
+</string>
+<string key="Achievement16Name">
+<value>Masoquista</value>
+</string>
+<string key="Achievement16Descr">
+<value>Vença uma partida como Suicida</value>
+</string>
+<string key="Achievement17Name">
+<value>Wobble Wobble</value>
+</string>
+<string key="Achievement17Descr">
+<value>
+Sobreviva uma partida como Bebum (com ao menos 10 jogadores)
+</value>
+</string>
+<string key="Achievement18Name">
+<value>Imperceptível</value>
+</string>
+<string key="Achievement18Descr">
+<value>
+Em uma partida com 20 ou mais pessoas, não receba um único voto no enforcamento contra você (e sobreviva)
+</value>
+</string>
+<string key="Achievement19Name">
+<value>Sobrevivente</value>
+</string>
+<string key="Achievement19Descr">
+<value>Sobreviva 100 partidas</value>
+</string>
+<string key="Achievement20Name">
+<value>Ovelha Negra</value>
+</string>
+<string key="Achievement20Descr">
+<value>Seja o primeiro enforcado em 3 partidas seguidas</value>
+</string>
+<string key="Achievement21Name">
+<value>Promíscuo</value>
+</string>
+<string key="Achievement21Descr">
+<value>
+Como a Cortesã, sobreviva a um jogo noturno de 5+ sem ficar em casa ou visitar a mesma pessoa mais de uma vez
+</value>
+</string>
+<string key="Achievement22Name">
+<value>Irmão Maçom</value>
+</string>
+<string key="Achievement22Descr">
+<value>Seja um dos últimos dois Maçons sobreviventes</value>
+</string>
+<string key="Achievement23Name">
+<value>Troca Dupla</value>
+</string>
+<string key="Achievement23Descr">
+<value>
+Troque de papel 2 vezes em uma partida (conversão para a seita não conta)
+</value>
+</string>
+<string key="Achievement24Name">
+<value>Ei Cara, Belo Tiro</value>
+</string>
+<string key="Achievement24Descr">
+<value>
+Como Sentinela, use seu último disparo para matar um Lobo ou o Serial Killer
+</value>
+</string>
+<string key="Achievement25Name">
+<value>É Por Isso que Você Não Fica em Casa</value>
+</string>
+<string key="Achievement25Descr">
+<value>
+Como Lobo ou Integrante da Seita, transforme uma Cortesã quando ela estiver em casa
+</value>
+</string>
+<string key="Achievement26Name">
+<value>Visão Dupla</value>
+</string>
+<string key="Achievement26Descr">
+<value>Seja um dos dois Videntes ao mesmo tempo</value>
+</string>
+<string key="Achievement27Name">
+<value>Double Kill</value>
+</string>
+<string key="Achievement27Descr">
+<value>Seja parte do final "Serial Killer vs Sentinela"</value>
+</string>
+<string key="Achievement28Name">
+<value>Eu Deveria Saber</value>
+</string>
+<string key="Achievement28Descr">
+<value>Como Vidente, revele o Confidente</value>
+</string>
+<string key="Achievement29Name">
+<value>Vejo uma Falta de Confiança</value>
+</string>
+<string key="Achievement29Descr">
+<value>Como Vidente, seja enforcado na primeira noite</value>
+</string>
+<string key="Achievement30Name">
+<value>Sunday Bloody Sunday</value>
+</string>
+<string key="Achievement30Descr">
+<value>Seja uma das 4 vitímas a morrer na mesma noite</value>
+</string>
+<string key="Achievement31Name">
+<value>A Troca de Lado Funciona</value>
+</string>
+<string key="Achievement31Descr">
+<value>Troque de papel em uma partida, e ganhe</value>
+</string>
+<string key="Achievement32Name">
+<value>Amor Proibido</value>
+</string>
+<string key="Achievement32Descr">
+<value>
+Vença fazendo parte de um casal Lobo/Aldeão (Aldeão, não Aldeia)
+</value>
+</string>
+<string key="Achievement33Name">
+<value>Desenvolvedor</value>
+</string>
+<string key="Achievement33Descr">
+<value>Tenha uma solicitação no repositório</value>
+</string>
+<string key="Achievement34Name">
+<value>A Primeira Pedra</value>
+</string>
+<string key="Achievement34Descr">
+<value>
+Seja o primeiro a votar no enforcamento 5 vezes em uma mesma partida
+</value>
+</string>
+<string key="Achievement35Name">
+<value>Vigilante Esperto</value>
+</string>
+<string key="Achievement35Descr">
+<value>
+Como Vigilante, ambas as suas balas atingiram um Lobisomem, Serial Killer ou Integrante da Seita
+</value>
+</string>
+<string key="Achievement36Name">
+<value>Streetwise</value>
+</string>
+<string key="Achievement36Descr">
+<value>
+Encontre diferentes Lobos, Serial Killer ou Integrantes da Seita 4 noites seguidas como Detetive
+</value>
+</string>
+<string key="Achievement37Name">
+<value>Encontro Rápido</value>
+</string>
+<string key="Achievement37Descr">
+<value>
+Faça o bot escolher você como um dos amantes (o Cupido não escolheu)
+</value>
+</string>
+<string key="Achievement38Name">
+<value>Mesmo um Relógio Parado é Certo Duas Vezes Por Dia</value>
+</string>
+<string key="Achievement38Descr">
+<value>
+Como Trouxa, tenha ao menos duas visões corretas na mesma partida
+</value>
+</string>
+<string key="Achievement39Name">
+<value>Tão perto!</value>
+</string>
+<string key="Achievement39Descr">
+<value>
+Como Suicida, seja impedido com mais votos no enforcamento
+</value>
+</string>
+<string key="Achievement40Name">
+<value>Convenção da Seita</value>
+</string>
+<string key="Achievement40Descr">
+<value>
+Seja um dos 10 Integrantes da Seita vivos no final de uma partida
+</value>
+</string>
+<string key="Achievement41Name">
+<value>Amor Próprio</value>
+</string>
+<string key="Achievement41Descr">
+<value>Como Cupido, escolha você como um dos amantes</value>
+</string>
+<string key="Achievement42Name">
+<value>Deveria ter Dito Algo</value>
+</string>
+<string key="Achievement42Descr">
+<value>
+Como Lobo, sua Alcateia come seu amante (a primeira noite não conta)
+</value>
+</string>
+<string key="Achievement43Name">
+<value>Suicida Exagerado</value>
+</string>
+<string key="Achievement43Descr">
+<value>
+Como Suicida, tenha todos os votos contra (ao seu favor) no enforcamento
+</value>
+</string>
+<string key="Achievement44Name">
+<value>Serial Samaritano</value>
+</string>
+<string key="Achievement44Descr">
+<value>
+Como Serial Killer, mate os últimos 3 lobos em uma mesma partida
+</value>
+</string>
+<string key="Achievement45Name">
+<value>Forragem de Integrante da Seita</value>
+</string>
+<string key="Achievement45Descr">
+<value>
+Seja o Integrante da Seita a ser enviado para converter o Inquisidor
+</value>
+</string>
+<string key="Achievement46Name">
+<value>Lobo Solitário</value>
+</string>
+<string key="Achievement46Descr">
+<value>
+Em um jogo no modo Caos, com ao menos 10 pessoas, seja o único lobo - e vença
+</value>
+</string>
+<string key="Achievement47Name">
+<value>Pack para Sentinela</value>
+</string>
+<string key="Achievement47Descr">
+<value>Seja um dos 7 lobos vivos de uma só vez</value>
+</string>
+<string key="Achievement48Name">
+<value>Salvo pela Bala(s)</value>
+</string>
+<string key="Achievement48Descr">
+<value>
+Como Aldeão, o número de lobos corresponde ao número de aldeões, mas o jogo não termina porquê o Vigilante tem uma bala
+</value>
+</string>
+<string key="Achievement49Name">
+<value>Em um Jogo Longo</value>
+</string>
+<string key="Achievement49Descr">
+<value>Sobreviva por ao menos 1 hora em uma partida</value>
+</string>
+<string key="Achievement50Name">
+<value>OH SHI-</value>
+</string>
+<string key="Achievement50Descr">
+<value>Mate seu amante na primeira noite</value>
+</string>
+<string key="Achievement51Name">
+<value>Veterano</value>
+</string>
+<string key="Achievement51Descr">
+<value>Jogue 500 partidas</value>
+</string>
+<string key="Achievement52Name">
+<value>Sem Xamã!</value>
+</string>
+<string key="Achievement52Descr">
+<value>Como Lobo, mate seu Xamã</value>
+</string>
+<string key="Achievement53Name">
+<value>Rastreador de Seita</value>
+</string>
+<string key="Achievement53Descr">
+<value>
+Como Inquisidor, mate os 3 últimos Integrantes da Seita em uma partida
+</value>
+</string>
+<string key="Achievement54Name">
+<value>EU NÃO ESTOU BÊBAD-- *BURPPP*</value>
+</string>
+<string key="Achievement54Descr">
+<value>
+Como Sem-Jeito, acerte ao menos 3 vezes no enforcamento até o final da partida
+</value>
+</string>
+<string key="Achievement55Name">
+<value>Seita de Lobo</value>
+</string>
+<string key="Achievement55Descr">
+<value>
+Como o Lobisomem Alfa, seja bem sucedido ao coverter as 3 últimas vitimas de uma mesma partida
+</value>
+</string>
+<string key="Achievement56Name">
+<value>Você protegeu a si mesmo?</value>
+</string>
+<string key="Achievement56Descr">
+<value>
+Como um Anjo da Guarda, sobreviva 3 tentativas de tentar proteger um lobo que não estava em casa
+</value>
+</string>
+<string key="Achievement57Name">
+<value>Riquinho Mimado</value>
+</string>
+<string key="Achievement57Descr">
+<value>
+Como Realeza, seja enforcado pela segunda vez, mesmo tendo se revelado
+</value>
+</string>
+<string key="Achievement58Name">
+<value>Três Lobinhos e um Porco-Mau</value>
+</string>
+<string key="Achievement58Descr">
+<value>
+Como Xamã, sobreviva uma partida com três ou mais lobos vivos
+</value>
+</string>
+<string key="Achievement59Name">
+<value>Presidente</value>
+</string>
+<string key="Achievement59Descr">
+<value>
+Como Xerife, acerte 3 votos no enforcamento, após se revelar
+</value>
+</string>
+<string key="Achievement60Name">
+<value>Eu Ajudei!</value>
+</string>
+<string key="Achievement60Descr">
+<value>
+Como Filhote de Lobisomem, a alcateia viva tem sucesso em duas tentativas, após você morrer
+</value>
+</string>
+<string key="Achievement61Name">
+<value>Foi uma noite e tanto!</value>
+</string>
+<string key="Achievement61Descr">
+<value>
+Durante a mesma noite, foi visitado por 3 ou mais jogadores com diferentes funções
+</value>
+</string>
+<string key="Achievement62Name">
+<value>Eu Sou o Alfa Agora!</value>
+</string>
+<string key="Achievement62Descr">
+<value>Como o Ladrão, roube o papel do Lobisomem Alfa</value>
+</string>
+<string key="Achievement63Name">
+<value>Pulando a Escada</value>
+</string>
+<string key="Achievement63Descr">
+<value>Como Ladrão, roube o papel do Inquisidor</value>
+</string>
+<string key="Achievement64Name">
+<value>Honesto</value>
+</string>
+<string key="Achievement64Descr">
+<value>
+Como Aldeão, sobreviva e ganhe um jogo com mais de 10 jogadores sem ser checado pela Cortesã, Vidente, Trouxa ou Detetive
+</value>
+</string>
+<string key="Achievement65Name">
+<value>Sou seu escudo</value>
+</string>
+<string key="Achievement65Descr">
+<value>
+Como Anjo da Guarda, tenha sucesso em proteger 3 jogadores da morte
+</value>
+</string>
+<string key="Achievement66Name">
+<value>Cheio de Ideias</value>
+</string>
+<string key="Achievement66Descr">
+<value>
+Sugira uma mudança para o blackwerewolfbot, para que seja implementada no bot
+</value>
+</string>
+<string key="Achievement67Name">
+<value>Bem-vindo à Cidade dos Trouxas</value>
+</string>
+<string key="Achievement67Descr">
+<value>Jogue uma partida no Modo Trouxa</value>
+</string>
+<string key="Achievement68Name">
+<value>Todos Podem Ganhar</value>
+</string>
+<string key="Achievement68Descr">
+<value>Jogue uma partida onde todos ganhem</value>
+</string>
+<string key="Achievement69Name">
+<value>Agradeci com Minha Faca</value>
+</string>
+<string key="Achievement69Descr">
+<value>
+Como o Serial Killer, seja salvo dos lobos pelo Anjo da Guarda e mate o anjo no processo
+</value>
+</string>
+<string key="Achievement70Name">
+<value>Uma História de Amor Clichê</value>
+</string>
+<string key="Achievement70Descr">
+<value>
+Como o Pacifista, se manifeste para salvar seu amor (É preciso se manifestar depois de pelo menos 50% dos jogadores terem votado na forca)
+</value>
+</string>
+<string key="Achievement71Name">
+<value>Salvando minha prórpia pele</value>
+</string>
+<string key="Achievement71Descr">
+<value>
+Como Pacifista, salve a si mesmo, se manifestando. (Após ao menos 50% das pessoas terem votado)
+</value>
+</string>
+<string key="Achievement72Name">
+<value>Acabando com a modinha</value>
+</string>
+<string key="Achievement72Descr">
+<value>
+Como Pacifista, salve a vida do Inquisidor. (Após ao menos 50% dos jogadores terem votado
+</value>
+</string>
+<string key="Achievement73Name">
+<value>Com grandes poderes, vêm grandes responsabilidades</value>
+</string>
+<string key="Achievement73Descr">
+<value>Como Monarca, use sua ação para enforcar o suicida</value>
+</string>
+<string key="Achievement74Name">
+<value>Dane-se a democracia!</value>
+</string>
+<string key="Achievement74Descr">
+<value>Como Monarca, enforque o Xerife</value>
+</string>
+<string key="Achievement75Name">
+<value>Top psicopata</value>
+</string>
+<string key="Achievement75Descr">
+<value>
+Como Mestre das Marionetes, faça o Serial Killer se suicidar e ganhe o jogo
+</value>
+</string>
+<string key="Achievement76Name">
+<value>Eu acho que issto é um bug</value>
+</string>
+<string key="Achievement76Descr">
+<value>
+Como o Lobo Trapaceiro, revela-se como um papel que tenha ação antes do linchamento (pacifista ou monarca), e não seja linchado
+</value>
+</string>
+<string key="Achievement77Name">
+<value>Morto por uma causa maior</value>
+</string>
+<string key="Achievement77Descr">
+<value>
+Como Mártir, morra por outra pessoa e ganhe a partida junto a ela (Não um aldeão)
+</value>
+</string>
+<string key="Achievement78Name">
+<value>Castigo do papai</value>
+</string>
+<string key="Achievement78Descr">
+<value>
+Como membro da Realeza, seja morto pela escolha do Monarca
+</value>
+</string>
+<string key="Achievement79Name">
+<value>Um Verdadeiro Mestre das Poções</value>
+</string>
+<string key="Achievement79Descr">
+<value>Como Alquimista, cure o lobisomem</value>
+</string>
+<string key="AchUnlocked">
+<value>Conquista desbloqueada!</value>
+</string>
+<string key="AllowFoolish">
+<value>Permitir modo Trouxa?</value>
+</string>
+<string key="AllowFoolishQ">
+<value>Deseja ativar o Modo Trouxa?\nAtual: {0}</value>
+</string>
+<string key="AllowFoolishA">
+<value>Permitir o Modo Trouxa está defindo como {0}</value>
+</string>
+<string key="SubstitutePlayer">
+<value>
+{0} foi morto por ficar sem jogar. O bot escolhou você como substituto. Você é {1} agora!
+</value>
+</string>
+<string key="SetSubstituteQ">
+<value>
+Você quer ativar substituição para o Inquisidor? \nAtual: {0}
+</value>
+</string>
+<string key="None">
+<value>Não</value>
+</string>
+<string key="OnlyCH">
+<value>Sim</value>
+</string>
+<string key="SetSubstituteA">
+<value>Substituição definida como {0}</value>
+</string>
+<string key="Achievement80Name">
+<value>Assustado</value>
+</string>
+<string key="Achievement80Descr">
+<value>
+Resolva o primeiro quebra-cabeças do evento de Halloween
+</value>
+</string>
+<string key="Achievement81Name">
+<value>Apavorado</value>
+</string>
+<string key="Achievement81Descr">
+<value>
+Resolva o segundo quebra-cabeças do evento de Halloween
+</value>
+</string>
+<string key="Achievement82Name">
+<value>Amendrontado</value>
+</string>
+<string key="Achievement82Descr">
+<value>
+Resolva o terceiro quebra-cabeças do evento de Halloween
+</value>
+</string>
+<string key="Achievement83Name">
+<value>Medroso</value>
+</string>
+<string key="Achievement83Descr">
+<value>
+Resolva o quarto quebra-cabeças do evento de Halloween
+</value>
+</string>
+<string key="Achievement84Name">
+<value>Sussurro do Fantasma</value>
+</string>
+<string key="Achievement84Descr">
+<value>
+Resolva todos os quebra-cabeças do evento de Halloween
+</value>
+</string>
+<string key="Achievement85Name">
+<value>Detetive</value>
+</string>
+<string key="Achievement85Descr">
+<value>
+Ajude a descobrir uma dica para o evento de Halloween
+</value>
+</string>
+<string key="WinnerGroups">
+<value>Vencedores do evento de Halloween:</value>
+</string>
+<string key="LanguageUsed">
+<value>(usando o pack de língua {0})</value>
+</string>
+<string key="DisabledFoolish">
+<value>
+O modo louco foi desabilitado pelos administradores do seu grupo.
+</value>
+</string>
+<string key="AllowClassic">
+<value>Permitir Modo Clássico</value>
+</string>
+<string key="AllowClassicQ">
+<value>Deseja ativar o Modo Clássico?\nAtual: {0}</value>
+</string>
+<string key="AllowClassicA">
+<value>Permitir Modo Clássico está definido como {0}</value>
+</string>
+<string key="AllowMighty">
+<value>Permitir Modo Mighty</value>
+</string>
+<string key="AllowMightyQ">
+<value>Deseja ativar o Modo Mighty?\nAtual: {0}</value>
+</string>
+<string key="AllowMightyA">
+<value>Permitir Modo Mighty está definido como {0}</value>
+</string>
+<string key="DisabledClassic">
+<value>
+O modo clássico foi desabilitado pelos administradores do seu grupo.
+</value>
+</string>
+<string key="DisabledMighty">
+<value>
+O modo mighty foi desabilitado pelos administradores do seu grupo.
+</value>
+</string>
+<string key="PlayerStartedClassicGame">
+<value>
+{0} iniciou uma partida no modo clássico! Entre para se divertir... e provavelmente morrer :P
+</value>
+<value>
+Um novo jogo clássico foi iniciado por {0}! Clique no botão para jogar e tente sobreviver!
+</value>
+</string>
+<string key="PlayerStartedMightyGame">
+<value>
+{0} iniciou uma partida no modo mighty! Entre para se divertir... e provavelmente morrer :P
+</value>
+<value>
+Um novo jogo mighty foi iniciado por {0}! Clique no botão para jogar e tente sobreviver!
+</value>
+</string>
+<string key="Social">
+<value>Seus status sociais</value>
+</string>
+<string key="MostPlayedWith">
+<value>👬 Mais jogado com</value>
+</string>
+<string key="Kills">
+<value>🔪Matou</value>
+</string>
+<string key="KilledBy">
+<value>☠️Morto por</value>
+</string>
+<string key="MostLoversWith">
+<value>❤️Mais casado com</value>
+</string>
+<string key="PuppetMasterTeamEnd">
+<value>Alex Fierro</value>
+</string>
+<string key="the">
+<value>o (a)</value>
+</string>
+<string key="Rank1Name">
+<value>Líder da Alcateia ⚡️</value>
+</string>
+<string key="Rank2Name">
+<value>Lobo Beta 🌚</value>
+</string>
+<string key="Rank3Name">
+<value>Membro da Alcateia 🐺</value>
+</string>
+<string key="Rank4Name">
+<value>Lobo Solitário 🐾</value>
+</string>
+<string key="Rank5Name">
+<value>Recém Mordido 🐶</value>
+</string>
+<string key="Rank6Name">
+<value>Alma Infectada ☠️</value>
+</string>
+<string key="Rank7Name">
+<value>Humilde Aldeão 👨‍🌾</value>
+</string>
+<string key="Rank7Descr">
+<value>
+"Quando você coloca sua mão na enxada, você não pode abaixá-la até chegar ao fim do campo." (Alice Paul)
+</value>
+<value>
+"Quão difícil é a vida para os humildes camponês e, no entanto, quão humana e real!" (W. E. B. Du Bois)
+</value>
+</string>
+<string key="Rank6Descr">
+<value>
+"Quando as pessoas são infectadas pelo meu charme, elas não vêem meu tamanho. Meus olhos azuis profundos e penetrantes distraem." (Peter Dinklage)
+</value>
+<value>
+"Quando um animal é infectado, naturalmente ou por injeção experimental, com uma bactéria, vírus ou outro corpo estranho, o animal reconhece isso como um invasor e age de maneira a removê-lo ou destruí-lo." (Cesar Milstein)
+</value>
+</string>
+<string key="Rank5Descr">
+<value>
+"Eu já fui mordido no nariz por um filhote de leão." (Newt Gingrich)
+</value>
+<value>
+"Treinar um filhote de cachorro é como criar um filho. Cada interação é uma oportunidade de treinamento." (Ian Dunbar)
+</value>
+</string>
+<string key="Rank4Descr">
+<value>
+"Acho que sou praticamente um lobo solitário. Não digo que não gosto de pessoas, mas, para dizer a verdade, só gosto quando tenho a chance de olhar profundamente em seus corações e mentes." (Bela Lugosi)
+</value>
+<value>
+"Acho que ainda sou um lobo solitário, internamente. E sempre serei." (Rob Halford)
+</value>
+</string>
+<string key="Rank3Descr">
+<value>
+"Acordei uma manhã pensando em lobos e percebi que alcateias funcionam como famílias. Todo mundo tem um papel, e se você agir dentro dos parâmetros do seu papel, a alcateia completa é bem-sucedida e, quando a alcateia não trabalha em conjunto, o fracasso da mesma é iminente." (Jodi Picoult)
+</value>
+<value>
+"Eu sou um membro de uma equipe, confio na equipe, a admiro e me sacrifico por ela, porque é a equipe e não o indivíduo, que é o campeão final." (Mia Hamm)
+</value>
+</string>
+<string key="Rank2Descr">
+<value>"Ser o número dois é uma droga." (Andre Agassi)</value>
+<value>
+"Estou jogando muito bem agora, mas meu ranking não diz isso. Eu sou o numero dois." (Vijay Singh)
+</value>
+</string>
+<string key="Rank1Descr">
+<value>
+"Um líder é aquele que conhece o caminho, segue o caminho e mostra o caminho." (John C. Maxwell)
+</value>
+<value>
+"Um bom líder leva um pouco mais do que a sua parte da culpa, um pouco menos do que a sua parte do crédito." (Arnold H. Glasow)
+</value>
+</string>
+<string key="NewLevel">
+<value>Você atingiu um novo nível!</value>
+</string>
+<string key="ReachedLevel">
+<value>Você se tornou um {0}!</value>
+</string>
+<string key="CurrentProgress">
+<value>Você tem {0} agora.</value>
+</string>
+<string key="collected">
+<value>Coletados</value>
+</string>
+<string key="CountAchievements">
+<value>Conquistas Desbloqueadas!</value>
+</string>
+<string key="GamesWon">
+<value>Jogos Ganhos ({0}%)</value>
+</string>
+<string key="GamesLost">
+<value>Jogos Perdidos ({0}%)</value>
+</string>
+<string key="GamesSurvived">
+<value>Jogos Sobrevividos ({0}%)</value>
+</string>
+<string key="TotalGames">
+<value>Total de Jogos</value>
+</string>
+<string key="MostKilled">
+<value>vezes matou alegremente</value>
+</string>
+<string key="MostKilledBy">
+<value>vezes abatido por</value>
+</string>
+<string key="MoonSymbol">
+<value>🌙</value>
+</string>
+<string key="NextRank">
+<value>Próxima classificação: {0} (precisa de {1})</value>
+</string>
+<string key="ApprenticeNowCH">
+<value>
+{0} era o Percy Jackson 💂. Como seu Escudeiro 🛡, você pega a espada dele e se torna o novo Percy Jackson.
+</value>
+</string>
+<string key="RoleInfoSquire">
+<value>
+Você é Escudeiro 🛡. Aprendendo do seu ídolo, o Percy Jackson, pegará o cargo de Percy Jackson se o mesmo morrer. Em tempos em que os Comedores de se multiplica, será crucial sua presença no Acampameto.
+</value>
+</string>
+<string key="AboutSquire">
+<value>
+Você é Escudeiro 🛡. Um Aprendiz de Percy Jackson como os Comedores de Lótus a cada dia ficam mais difíceis de serem detidos por apenas um Percy Jackson, você decide aprender com ele a agora que aprendeu o suficiente, se tornará Percy Jackson se o mesmo morre.
+</value>
+</string>
+<string key="Squire">
+<value>Escudeiro 🛡</value>
+</string>
+<string key="PuppetMasterForceCultKill">
+<value>
+Alex Fierro forçou você a matar um colega dos Comedores de Lótus esta noite! Seu líder está insatisfeito, mas você não pode fazer nada além de seguir as ordens do Alex Fierro de matar {0}! Ah, não!
+</value>
+</string>
+<string key="CultKillCult">
+<value>
+O culto se reúne para distribuir as lótus, mas de repente todos os seus membros decidem que você deveria ser um sacrifício para um deus. Eles te esfaquecem até a morte e te deixam para os deuses verem.
+</value>
+</string>
+<string key="PuppetMasterForceWerewolfKill">
+<value>
+Como você quer ir matar sua presa o poder de Alex Fierro entra na sua mente e força você a matar {0}, um de seus colegas, esta noite.
+</value>
+</string>
+<string key="WolvesKillWolf">
+<value>
+Enquanto seu bando se reúne para começar a caçar hoje à noite, de repente todos os lestrigões se voltam para você com um sorriso faminto e decidem que você é a melhor refeição para esta noite. Você morreu. :(
+</value>
+</string>
+<string key="CultKillCultMessage">
+<value>
+Quando o acampamento acorda da noite aterrorizante, {0} está morto na praça da cidade, ainda vestindo robe de Comedor de Lótus. Parece que um comedor de lótus foi forçado a matar um de seus próprio membros esta noite.
+</value>
+</string>
+<string key="WerewolfKillWerewolfMessage">
+<value>
+Enquanto os campistas se reúnem {0} está desaparecido da multidão. Eles vão para a casa dele apenas para encontrar seus ossos, ainda na forma de lestrigão. Os lestrigões comeram um membro da Alcateia esta noite! Nojento!
+</value>
+</string>
+<string key="ForcedSleep">
+<value>
+Uma entidade forte o colocou para dormir na noite passada. Seja qual for a escolha que você teve antes, Alex Fierro fez você dormir profundamente!
+</value>
+</string>
+<string key="RoleConfigEntrance">
+<value>Escolha um slot para desativar/reativar um papel</value>
+</string>
+<string key="Unused">
+<value>Slot Inutilizado</value>
+</string>
+<string key="Beauty">
+<value>Drew Tanaka 💅</value>
+</string>
+<string key="RoleInfoBeauty">
+<value>
+Você é a Drew Tanaka 💅, a Campista mais bonita e gentil do acampamento. Se qualquer papel noturno tentar te visitar ou te matar, eles irão se apaixonar por sua beleza e vocês vão imediatamente se tornar namorados.
+</value>
+</string>
+<string key="AboutBeauty">
+<value>
+Você é a Drew Tanaka 💅, a Aldeã mais bonita e gentil do Acampamento. Se qualquer papel noturno tentar te visitar ou te matar, eles irão se apaixonar por sua beleza e vocês se tornarão amantes. Se for visitado por mais papéis em outras noites, a Drew formará casal com este, e seu antigo amor se matará deixando uma carta de amor pela Drew.
+</value>
+</string>
+<string key="SerialKillerLovesBeauty">
+<value>
+Como você quer matar {0} você dá uma bela olhada na sua vitíma. Intrigado por sua beleza, você abaixa sua arma, para acordar seu novo amor e certifique-se de que ela se apaixone por você também.
+</value>
+</string>
+<string key="BeautyStartsToLove">
+<value>
+Você acorda no meio da noite para ver {0} de pé na sua cama, olhando para você. Primeiro você está chocado que alguém invadiu sua casa, mas eles se esqueça de mudar de idéia rapidamente. Parabéns! Você encontrou um novo amante!
+</value>
+</string>
+<string key="WolfLovesBeautyOtherWolves">
+<value>
+Você e seus companheiros querem matar {0} mas mesmo em sua mente de lestrigão nublada você vê sua beleza. Irritado que alguém queira matá-la, você lutou contra os outros lestrigões de matar seu novo amor. Quando seus colegas vão embora, você acorda {0} e a faz apaixonar-se pelo seu charme também.
+</value>
+</string>
+<string key="WolfLovesBeauty">
+<value>
+Você e seus companheiros querem matar {0} mas mesmo em sua mente de lestrigão nublada você vê sua beleza. Irritado que alguém queira matá-lo, você lutou contra os outros lestrigões de matar seu novo amor. Quando seus colegas vão embora, você acorda {0} e o faz apaixonar-se pelo seu charme também.
+</value>
+</string>
+<string key="WolvesLeaveBeauty">
+<value>
+Você e seus companheiros querem matar {0} mas mesmo em sua mente de lestrigões nublada você vê sua beleza. Fascinado você não pode se segurar e começa a amar essa pessoa linda para sempre.
+</value>
+</string>
+<string key="CHLovesBeauty">
+<value>
+Você vai na casa de {0} para procurar por Comedores de Lótus para, mas ao invés disso você está vendo a pessoa mais bonita de sua vida. Apaixonado profundamente, você consegue convencer {0}, que amar você é a melhor coisa.
+</value>
+</string>
+<string key="CultLovesBeauty">
+<value>
+Você quer converter {0} mas é tão bonita para ser um dos humildes comedores de flor. Em vez disso, se apaixona instantaneamente e para sempre. Com grande esforço, você consegue convencer {0} te amar de volta.
+</value>
+</string>
+<string key="CultLovesBeautyOtherCult">
+<value>
+Você quer converter {0}, mas é muito bonita para ser um dos seguidores comedores de flor. Em vez de converter, se apaixonou instantaneamente e para sempre. Você consegue persuadir os outros colegas dos Comedores de Lótus a deixar você sozinho para "converter" {0}, mas em vez de se tornar um membro dos Comedores de Lótus, ela se torna seu amor.
+</value>
+</string>
+<string key="CultLeavesBeauty">
+<value>
+Você quer converter {0}, mas um de seus membros diz que ele é difícil de converter e que precisam executar ações drásticas. Então você os deixa para a noite...
+</value>
+</string>
+<string key="ThiefLovesBeauty">
+<value>
+Você quer roubar de {0}, mas ela rouba seu coração! Você é agora e para sempre foi atraída por ele e à medida que a noite avança, você também consegue roubar o coração dela.
+</value>
+</string>
+<string key="ProwlerLovesBeauty">
+<value>
+Você dá uma espiada pela janela de {0}. Como você vê a pessoa bonita dormindo dentro da casa, decide subir dentro da casa e cumprimentá-lo com seu charme!
+</value>
+</string>
+<string key="OldLoverDeath">
+<value>
+Porque você se apaixonou pela beleza, seu velho amor {0} precisa ir. Você termina com ele, não se importando mais com o bem-estar dele.
+</value>
+</string>
+<string key="OldLoverDied">
+<value>
+Os campistas acordam na manhã seguinte para encontrar {0} que se matou na última noite. Uma carta de amor escrita pela metade pode ser encontrada próximo ao cadaver.
+</value>
+</string>
+<string key="OldLoverSuicide">
+<value>
+Você dorme bem, sonhando com a pessoa amada. No meio da noite, há uma batida na porta que interrompe seus grandes sonhos. Você abre a porta, animado para ver que é sua amada! Mas ela termina com você?! AH NÃO! Você está desanimado, triste... Então você decide se matar para fugir da sua tristeza. :(
+</value>
+</string>
+<string key="PlayerStartedRomanceGame">
+<value>
+Uh la la... Se prepare para alguns encontros às cegas! {0} iniciou um jogo romântico!
+</value>
+<value>
+Pronto para encontrar o amor de sua vida? {0} iniciou um jogo romântico! Prepare suas velas!
+</value>
+</string>
+<string key="LoverPM">
+<value>
+Você foi preso pelo amor! Não, não a flecha do cupido 🏹, mas o amor real. {0} ficará para sempre no seu coração. Se ele morrer, você também morrerá. Se um de vocês dois ganhar, vocês dois ganharão.
+</value>
+</string>
+<string key="AnotherLoverPM">
+<value>
+Você deve ser um imã, oh meu Deus! Você tem outro amante! Você está loucamente apaixonado por {0}! Se ele morrer, você também morrerá. Se um de vocês dois ganhar, vocês dois ganharão.
+</value>
+</string>
+<string key="HarlotLovesBeauty">
+<value>
+Quando visita {0}, você perceber que ela é a melhor pessoa do mundo! Nenhuma noite pode se comparar com esta! Foi tão incrível... Você não consegue deixar {0} sozinha e se torna amante dela em um instante.
+</value>
+</string>
+<string key="GuardianAngelLovesBeauty">
+<value>
+Você protege {0}, mas quando você os verifica, percebe sua incrível beleza. Todas as noções antiquadas de amor são deixadas de lado, quando se apaixona por {0} imediatamente e à medida que a noite avança, ela se apaixona por você também.
+</value>
+</string>
+<string key="AllowRomance">
+<value>Permitir Modo Romance</value>
+</string>
+<string key="AllowRomanceQ">
+<value>Deseja ativar o Modo Romance?\nAtual: {0}</value>
+</string>
+<string key="AllowRomanceA">
+<value>Permitir Modo Romance está definido como {0}</value>
+</string>
+<string key="DisabledRomance">
+<value>
+O Modo Romance foi desabilitado pelos administradores do grupo.
+</value>
+</string>
+<string key="ChooseRole">
+<value>Escolha o papel para desativar</value>
+</string>
+<string key="NoRole">
+<value>Definir o slot para vazio</value>
+</string>
+<string key="Back">
+<value>Voltar para o Menu Principal</value>
+</string>
+<string key="GABecameFallenAngel">
+<value>
+A dor percorre seu corpo quando suas asas brancas ficam pretas. Nada pode ser feito enquanto você luta contra a dor da transformação. Depois de horas, acabou. Você se levanta para olhar para si mesmo. Nada é deixado de sua beleza divina. Você se tornou o Anjo Caído, aliado aos Lobisomens.
+</value>
+</string>
+<string key="FallenGAProtectOrKill">
+<value>
+Você pode proteger um lobisomem da morte ou matar um membro da aldeia. O que você gostaria de fazer?
+</value>
+</string>
+<string key="FallenGAProtectWho">
+<value>Quem você gostaria de proteger?</value>
+</string>
+<string key="FallenGAKillWho">
+<value>Quem você gostaria de matar esta noite?</value>
+</string>
+<string key="RoleInfoFallenAngel">
+<value>
+Ícaro 👼🐺 costumava a ser o Anjo da Guarda do acampamento, mas ele foi infectado pelos Lestrigões e se transformou. Ele pode matar qualquer membro do Acampamento que não seja um Lestrigão ou proteger um Lestrigão toda a noite.
+</value>
+</string>
+<string key="AboutFallenAngel">
+<value>
+O Ícaro 👼🐺 costumava a ser o Anjo da Guarda do Acampamento, mas ele foi infectado pelos Lestrigões e se transformou. Agora trabalhando pela alcateia. Ele pode matar qualquer membro do Acampamento que não seja um Lestrigão ou proteger um Lestrigão toda a noite.
+</value>
+</string>
+<string key="Guard">
+<value>Proteger um Lestrigão</value>
+</string>
+<string key="Kill">
+<value>Matar um Jogador</value>
+</string>
+<string key="CultConvertFallenAngel">
+<value>
+Você envia {0} para converter {1}, mas o corpo de {0} sai voando pela janela cortada ao meio por algo nítido! {0} está morto...
+</value>
+</string>
+<string key="ProtectWerewolfNothingHappened">
+<value>
+Você protegeu o Lestrigão {0} hoje à noite, mas nada aconteceu com ele...
+</value>
+</string>
+<string key="ProtectedWolf">
+<value>
+Thalia 👼 vigiou você esta noite e te manteve longe do perigo!
+</value>
+</string>
+<string key="ProtectWerewolf">
+<value>
+Você protegeu o Lestrigão {0} de morrer esta noite.
+</value>
+</string>
+<string key="HarlotNotHomeFA">
+<!--   0 - player name 
+   -->
+<value>
+Estranho ... {0} não estava em casa! Nenhuma matança para você esta noite...
+</value>
+</string>
+<string key="FaLovesBeauty">
+<value>
+Você quer matar {0} mas ele é muito bonito. Nem a morte pode tê-lo, você precisa tê-lo para si mesmo. Você acorda {0} e a faz se apaixonar pelo seu charme também.
+</value>
+</string>
+<string key="HunterKillsFallenEnd">
+<!--  {0} = hunter's name, {1} = wolf's name
+   -->
+<value>
+Sabendo que apenas {0} foi deixado, {1} tenta matar {0}, mas o treinamento militar e a paranóia de {0} são muito difíceis de manipular! Tudo o que resta são asas de sangue e a última pessoa em pé: Bianca Di Angelo 🎯 vitorioso da aldeia!
+</value>
+</string>
+<string key="FallenKillsHunterEnd">
+<!--  {0} = hunter's name, {1} = wolf's name
+   -->
+<value>
+Sabendo que somente {0} foi deixado, {1} escolheu uma hora em que a guarda de {0} estava baixa. Eliminar o último campista provou ser fácil para {1}, pois tudo o que resta é um corpo mutilado de {0}, Bianca Di Angelo 🎯, adornado com lâminas afiadas.
+</value>
+</string>
+<string key="FaKillsYou">
+<!--  {0} = hunter's name, {1} = wolf's name
+   -->
+<value>
+Você acorda para encontrar uma figura angelical escura parada em sua cama. A figura te mata com suas penas afiadas você ainda se pergunta se era um anjo ou um demônio.
+</value>
+</string>
+<string key="FaKilled">
+<value>
+Os campistas acordam depois de uma longa noite e percebem {0} não iniciou seu trabalho. Eles o encontram em sua cabana cortado em pedaços por algo muito afiado.\n{1}
+</value>
+</string>
+<string key="SerialKillerKillsFallenAngel">
+<value>
+Você queria matar {0}, mas ele foi mais rápido que você, ele pega a faca e mata você!
+</value>
+</string>
+<string key="HunterShootsFallenAngel">
+<value>
+Você vai matar {0} para seus aliados lestrigões, mas quando você faz o trabalho, ele de repente pega seu arco debaixo da cama e atira em cheio na sua cara!
+</value>
+</string>
+<string key="HunterShotFallenAngel">
+<value>
+A Bianca Di Angelo 🎯 tem uma história inacreditável para contar! Ela diz que há o corpo de um anjo ou demônio em seu chalé. Os campistas não acreditam, mas eles os seguem de qualquer maneira e não é mentira! {0} está lá em sua forma maligna. O Ícaro caiu verdadeiramente agora.
+</value>
+</string>
+<string key="SerialKillerKilledFallenAngel">
+<value>
+Os campistas acordam para encontrar o corpo de {0}, suas penas escuras se espalham ao redor dele como um cobertor escuro. Mas ele não dorme como se seu corpo estivesse cansado e sem a orelha direita. A Empousa colocou o Ícaro no chão.
+</value>
+</string>
+<string key="HarlotFuckedFaPublic">
+<value>
+A Piper McLean 💋 {0} tentou usar o charme na pessoa errada esta noite. Parece que ela voou demais e teve uma longa queda de volta para o acampamento...
+</value>
+</string>
+<string key="HarlotFuckedFaKilledPublic">
+<value>
+Piper McLean 💋 {0} queria se divertir com {1} esta noite, mas eles pagaram o preço. O Ícaro levou os dois das nuvens para baixo como alimento para os Lestrigões...\n{1}
+</value>
+</string>
+<string key="CultConvertFaPublic">
+<value>
+Os Comedores de Lótus tentaram converter o Ícaro. O membro {0} teve que pagar esse erro com sua vida, pois seu corpo é encontrado perto da mata, cortado ao meio...
+</value>
+</string>
+<string key="FallenAngel">
+<!--   0 - player name 
+   -->
+<value>Ícaro 👼🐺</value>
+</string>
+<string key="ProwlerSeesFallenAngel">
+<value>
+Ao andar pela chalé de {0}, você percebe os gritos vindo do interior. Você se esconde por perto, apenas para assistir {1} sair de casa com asas negras nas costas. Você encontrou um aliado especial, o Ícaro.
+</value>
+</string>
+<string key="Achievement86Name">
+<value>Louco Amor</value>
+</string>
+<string key="Achievement86Descr">
+<value>
+Como Mestre das Marionetes, force o cupido para formar um par como você como um dos amantes
+</value>
+</string>
+<string key="Achievement87Name">
+<value>Rastreadores Duplos</value>
+</string>
+<string key="Achievement87Descr">
+<value>Seja um dos Inquisidores vivos</value>
+</string>
+<string key="Achievement88Name">
+<value>Grandeza do Místico</value>
+</string>
+<string key="Achievement88Descr">
+<value>
+Como o místico, com sucesso ajude a infectar pelo menos três pessoas em um jogo
+</value>
+</string>
+<string key="BlackWolf">
+<value>Lestrigão Negro 🐺🌑</value>
+</string>
+<string key="RoleInfoBlackWolf">
+<value>
+Você é o Lestrigão Negro 🐺🌑, um lestrigão solitário que vem de uma aldeia distante para procurar por uma alcateia. Seu objetivo é encontrar o Lestrigão Alfa à noite e desafiar sua posição. Se você vencer, você será o novo Alfa com 40% de mordida infecciosa. Se você perder, no entanto, as consequências podem ser graves para você.
+</value>
+</string>
+<string key="AboutBlackWolf">
+<value>
+Você é o Lestrigão Negro 🐺🌑, um Lestrigão solitário que vem de uma aldeia distante para procurar por uma alcateia nova. Seu objetivo é encontrar o Lestrigão Alfa à noite e desafiar sua posição. Se você vencer o que tem 70% de chance, você será o novo Alfa com 40% de mordida infecciosa. Se você perder, no entanto, as consequências podem ser graves para você.
+</value>
+</string>
+<string key="Normal">
+<value>Normal</value>
+</string>
+<string key="Chaos">
+<value>Caos</value>
+</string>
+<string key="Mighty">
+<value>Mighty</value>
+</string>
+<string key="Classic">
+<value>Clássico</value>
+</string>
+<string key="Foolish">
+<value>Trouxas</value>
+</string>
+<string key="Romantic">
+<value>Romântico</value>
+</string>
+<string key="StartGameGroup">
+<value>
+{0} iniciou uma nova partida! {0}, olhe suas mensagens privadas comigo para escolher um modo de jogo. Os administradores podem usar o botão abaixo para escolher um modo de jogo também. Se você não escolher um modo de jogo nos próximos 30 segundos, qualquer pessoa poderá escolhê-lo usando o botão abaixo.
+</value>
+</string>
+<string key="GetModeMenu">
+<value>Aperte um dos botões para escolher um modo</value>
+</string>
+<string key="GameAlreadyStarted">
+<value>
+Desculpe, mas já existe um jogo ocorrendo neste chat! Por favor, use os botões abaixo para escolher um modo (se você é o criador do jogo, um administrador ou se passaram 30 segundos após o início do jogo)
+</value>
+</string>
+<string key="Questionmark">
+<value>❓</value>
+</string>
+<string key="ChooseMode">
+<value>
+Por favor, escolha o modo que você quer jogar. Se você não sabe o que significa cada modo, você pode usar o ponto de interrogação perto do nome do modo para obter informações sobre ele.
+</value>
+</string>
+<string key="NormalHelp">
+<value>
+Em um jogo normal, todos os papéis estão disponíveis (exceto aqueles que os administradores do grupo desativaram). A quantidade e a força de bons e maus papéis é balanceada para a quantidade de jogadores no jogo.
+</value>
+</string>
+<string key="ChaosHelp">
+<value>
+Em um jogo de caos, todos os papéis estão disponíveis (exceto aqueles que os administradores do grupo desativaram). Ao contrário do normal, a força de bons e maus papéis não são equilibrados.
+</value>
+</string>
+<string key="FoolishHelp">
+<value>
+Em um jogo de trouxas pode ser levado muito literalmente. As funções atribuídas são principalmente Trouxas, um Vidente 👳 e Lobisomens com base na quantidade de jogadores. Se houver dez ou mais jogadores, haverá também um Aprendiz de Vidente 🙇, um Xamã e um Oráculo.
+</value>
+</string>
+<string key="MightyHelp">
+<value>
+Já se cansou de ser um humilde aldeão ou impotente? Este modo de jogo não tem papel sem poder! Não há papel neste modo de jogo com uma força de papel inferior a 3 (com algumas exceções).
+</value>
+</string>
+<string key="ClassicHelp">
+<value>
+Em um jogo clássico, nós honramos as raízes do lobisomem no telegrama e o estilo de jogo descomplicado que ele já teve. Existem apenas os papéis disponíveis que foram implementados primeiro pelo criador original: Aldeão, Vidente, Bêbado, Cortesã e, claro, Lobisomem
+</value>
+</string>
+<string key="RomanticHelp">
+<value>
+O modo de jogo romântico é um tipo especial de jogo mighty. Após a primeira noite, cada jogador receberá automaticamente um amante.
+</value>
+</string>
+<string key="FleeButton">
+<value>
+Por favor, não use os comandos para fugir. Use o botão em sua conversa pessoal comigo.
+</value>
+</string>
+<string key="FleePm">
+<value>Fugir do jogo em {0}</value>
+</string>
+<string key="FleeText">
+<value>Fugir</value>
+</string>
+<string key="BlackFindsAlphaWolfMsg">
+<value>
+O Lestrigão Negro {0} encontrou o sua alcateia esta noite e desafiou a posição do seu alfa!
+</value>
+</string>
+<string key="BlackFindsAlphaAlpaMsg">
+<value>
+Ontem à noite, o Lestrigão Negro {0} apareceu na sua frente e desafiou você para uma luta.
+</value>
+</string>
+<string key="BlackFindsAlphaBlackMsg">
+<value>
+Você encontrou o Lestrigão Alfa {0} e a Alcateia dele na noite passada.
+</value>
+</string>
+<string key="BlackFlees">
+<value>
+{0} Os olhos da matilha persistem em você, você começou a luta, no entanto, você simplesmente não poderia obter a vantagem. No último momento, você encontrou a possibilidade de correr e o fez.
+</value>
+</string>
+<string key="BlackFleesWolfAlphaMessage">
+<value>
+{0} O Lestrigão Negro tentou lutar, mas você sempre tem a vantagem. Momentos antes de você conseguir dar o último golpe fatal, o covarde correu por sua vida e você foi celebrado pela sua matilha.
+</value>
+</string>
+<string key="BlackFleesfWWMessage">
+<value>
+{0} Você assistiu, com certeza de que ninguém poderia vencer seu Alfa e você estava certo. O covarde Lestrigão Negro corre no último momento, evitando sua morte.
+</value>
+</string>
+<string key="BlackWolfBecomeWolfAlphaMessage">
+<value>
+{0} Uma batalha de grande força começou, mas depois de um tempo você claramente tem a vantagem. Mas ainda assim, você pode perceber a força do Lestrigão Negro e decidir que ele deve fazer parte a Alcateia a partir de agora.
+</value>
+</string>
+<string key="BlackWolfBecomeWolf">
+<value>
+{0} uma terrível batalha começa, mas logo você percebe que o Alfa é mais forte que você. Já que sua vida é depende disto, você dá o seu melhor mesmo com os avisos do Lestrigão Alfa! No final, ele oferece a você para se tornar um membro do grupo e percebendo que não ganharia desta vez, você aceita sem hesitação. Seus companheiros de equipe (se houver) são {1}
+</value>
+</string>
+<string key="BlackWolfBecomeWolfWWMessage">
+<value>
+{0}, uma batalha como ninguém jamais viu começa. Você e os outros lestrigões assistem impressionados com o sangue derramado. Mas enquanto isso acontece, você pode ver que seu lestrigão alfa {1} tem a vantagem. Esperando que o lestrigão Negro morra, você fica surpreso quando seu Alfa mostra misericórdia e convida o Lestrigão Negro para o seu bando.
+</value>
+</string>
+<string key="BlackWolfKillApha">
+<value>
+{0}, a alcateia envolve você como em um duelo intrigante. Demora horas, mas você saiu vitorioso, ao lado da carne sangrenta do seu rival. Agora você está lá para substituí-los no posto de líder. Você é agora o Lestrigão Alfa. Seus companheiros de equipe (se houver) são: {1}
+</value>
+</string>
+<string key="BlackWolfKillAlphaWWMessage">
+<value>
+{0} Depois de um duelo horripilante, o Lestrigão Negro consegue vencer o Lobo Alfa sem sequer uma única ferida. Eles se declara o novo Lestrigão Alfa. Seu velho Lestrigão Alfa {1} morreu.
+</value>
+</string>
+<string key="BlackWolfKillAlphaAlphaMessage">
+<value>
+{0} você se esforçou para sobreviver, mas sua força não é suficiente. Seu corpo está rasgado e seus restos são jogados sem rumo em todas as direções. Você está morto.
+</value>
+</string>
+<string key="AlphaKillBlackWolfWWMessage">
+<value>
+{0} No entanto, nada vem entre você e sua posição. O Lestrigão Negro tem que aprender isso da maneira mais difícil, morrendo.
+</value>
+</string>
+<string key="AlphaKillBlackWolf">
+<value>
+{0} o bando se reúne ao redor de vocês dois quando você começa a lutar. Depois de um tempo você fica cansado e fraco, mas o alfa não mostra sinais de fadiga. No final, você não pode fazer nada, muito fraco para protestar, o Alfa abre sua garganta.
+</value>
+</string>
+<string key="AlphaKillBlackWolfAlphaMessage">
+<value>
+{0} tenta desafiar sua posição, mas ele não é páreo para você! Você o rasga em pedaços, não se importando com a bagunça que você fez.
+</value>
+</string>
+<string key="PackFindsBlackWWMsg">
+<value>
+Sua presa é o Lestrigão Negro {0}. Ele desafia seu líder, o Lestrigão Alfa, a lutar pela posição de líder do bando.
+</value>
+</string>
+<string key="PackFindsBlackBlackMsg">
+<value>
+Você encontrou o Lestrigão Alfa {0} e sua alcateia na noite passada. Despreparado e assustado, mas sem vontade de desistir, você desafia o Alfa por sua posição.
+</value>
+</string>
+<string key="PackFindsBlackAlphaMsg">
+<value>
+Sua presa é na verdade, o Lestrigão Negro {0}. Ele parece hesitante e não só preparado, mas como ele desafia você de qualquer maneira pela liderança, você sorri feliz. Isso vai ser fácil, você pensa.
+</value>
+</string>
+<string key="BlackFindsPackNoAlphaBlackMsg">
+<value>
+Você entra na casa do {0}, cuidadoso e preparado para encontrar e matar o Alfa, mas {0} é apenas um Lestrigão normal. No entanto, não há Alfa ao redor e com seu domínio claro você pode persuadir {0} que você deveria ser o Alfa. Ele leva você até o bando e, a partir desse momento, você é o novo Lestrigão Alfa. Seus companheiros de equipe são: {1}
+</value>
+</string>
+<string key="BlackFindsPackBlackMsg">
+<value>
+Você entra na casa do {0}, cuidadoso e preparado para encontrar e matar o Alfa, mas {0} é apenas um Lestrigão normal. Você tenta dominar {0}, mas como já existe um Alfa, você não pode persuadi-lo a se tornar parte de seu bando.
+</value>
+</string>
+<string key="BlackFindsPackNoAlphaWwMsg">
+<value>
+O Lestrigão Negro {0} apareceu na sua porta ontem à noite. Sua postura é certa, suas intenções são claras. Ele quer se tornar o novo líder da matilha. Porque não há Alfa vivo você decide trazê-lo ao seu lado, na esperança de ter um novo líder da alcateia.
+</value>
+</string>
+<string key="BlackFindsPackNoAlphaPackMsg">
+<value>
+Um de seus companheiros Lestrigão {0} traz o Lestrigão Negro {1} esta noite. Porque ele é de grande força e sabedoria, o bando decide que ele é forte o suficiente para ser seu líder, o novo Lestrigão Alfa.
+</value>
+</string>
+<string key="BlackFindsPackWWMsg">
+<value>
+O Lestrigão Negro {0} aparece na sua porta ontem à noite. Sua postura é certa, suas intenções são claras. Ele quer se tornar o novo líder da matilha. No entanto, desde que seu bando já tenha um líder, você não pode levá-lo ao bando, com medo de ser considerado um traidor pelo Lestrigão Alfa.
+</value>
+</string>
+<string key="BlackFindsNothingBlackMsg">
+<value>
+Você entra na casa de {0}, cuidadoso e preparado para encontrar e matar o Alfa, mas {0} não é um Lestrigão e especialmente não o Lestrigão Alfa.
+</value>
+</string>
+<string key="PackFindsBlackNoAlphaBlackMsg">
+<value>
+{0} A matilha tenta te comer hoje a noite. Mal sabiam eles, eles se deparam com um poderoso Lestrigão dominante enquanto o bando não tem líder. Depois de uma boa dose de persuasão, você se torna o novo Alfa.
+</value>
+</string>
+<string key="PackFindsBlackNoAlphaWwMsg">
+<value>
+Ninguém teria imaginado, mas sua refeição {0} acaba sendo o Lestrigão Negro, Lestrigão dominante, enquanto seu bando não tem líder. Você decide que sua força é suficiente e de agora em diante ele é o Lestrigão Alfa.
+</value>
+</string>
+<string key="FleeAccepted">
+<value>
+Fugir aceito, no entanto você pode não ser capaz de fugir (se os administradores do grupo desativaram o uso no jogo)
+</value>
+</string>
+<string key="DgFallen">
+<value>
+O Frank Zhang {0} se transformou em um Ícaro! Parabéns, você tem um novo companheiro de equipe! :D
+</value>
+</string>
+<string key="NecroFallen">
+<value>
+A Melinoe {0} se transformou em um Ícaro! Parabéns, você tem um novo companheiro de equipe! :D
+</value>
+</string>
+<string key="Necromancer">
+<value>Melinoe ⚰️</value>
+</string>
+<string key="AboutNecromancer">
+<value>
+A Melinoe ⚰️ tem a chance de escolher um papel dentre os mortos. À noite, a Melinoe pode escolher se tornar um papel dos mortos pelo resto do jogo. Não se pode vencer como o Melinoe. A Melinoe e o Frank Zhang não aparecerão no mesmo jogo.
+</value>
+</string>
+<string key="RoleInfoNecromancer">
+<value>
+Você é a Melinoe ⚰️! À noite, você pode escolher se tornar um papel dos mortos pelo resto do jogo. Mas escolha sabiamente, já que você não pode vencer como Melinoe.
+</value>
+</string>
+<string key="NoDeadYet">
+<value>
+Como ninguém morreu ainda, você não pode escolher um papel hoje à noite.
+</value>
+</string>
+<string key="WhichRole">
+<value>Qual papel você gostaria de obter?</value>
+</string>
+<string key="NecromancerNewRole">
+<!--
+ {1} might be teammates text if he becomes a role that has team mates or has a role model
+  
+-->
+<value>Você decidiu se tornar {0}! {1}</value>
+</string>
+<string key="NecromancerTeammates">
+<value>
+Seu novo companheiro de equipe (se houver) são: {0}
+</value>
+</string>
+<string key="NecromancerRoleModel">
+<value>Sua inspiração é {0}!</value>
+</string>
+<string key="NecromancerMartyr">
+<value>Você está protegendo {0}!</value>
+</string>
+<string key="NecromancerBh">
+<value>
+Você se tornou Confidente 👁! O Oráculo de Delfos é (são) {0}!
+</value>
+</string>
+<string key="NecromancerSeer">
+<value>
+A Melinoe {0} decidiu se tornar Oráculo de Delfos👳 !
+</value>
+</string>
+<string key="NecromancerMason">
+<value>
+Os Paul's tem um novo membro! {0} o ex-Necromante entrou em seu time.
+</value>
+</string>
+<string key="NecromancerWolf">
+<value>
+A Melinoe {0} decidiu se tornar um Lestrigão. Parabéns, você tem um novo companheiro de equipe.
+</value>
+</string>
+<string key="NecromancerCult">
+<value>
+A Melinoe {0} decidiu se tornar um membro dos Comedores de Lótus. Parabéns, você tem um novo companheiro de equipe.
+</value>
+</string>
+<string key="BlackQuestion">
+<value>Quem você quer conferir hoje à noite?</value>
+</string>
+<string key="AlphaDied">
+<value>
+À medida que o dia começa, os campistas encontram um campo de batalha terrível perto da floresta! A forma imponente do Lestrigão Alfa {0} é visivel enquanto os restos de carne estão se decompondo. Nojento.
+</value>
+</string>
+<string key="BlackDied">
+<value>
+Uma terrível batalha aconteceu na noite passada! O Lestrigão Alfa matou seu oponente, o Lestrigão Negro {0}!
+</value>
+</string>
+<string key="BlackLovesBeauty">
+<value>
+Você quer ver se {0} é o Alfa, mas em vez disso você conhece uma pessoa bonita. Você se apaixona, acordando {0} para celebrar seu novo amor imediatamente.
+</value>
+</string>
+<string key="Stormbringer">
+<value>Jason Grace 🌩</value>
+</string>
+<string key="AboutStormbringer">
+<value>
+Como o Jason Grace 🌩, você tem o poder de invocar uma tempestade terrível durante a noite. Na noite em que você convocar, todos os papéis ativos procurarão abrigo em suas casas e nenhuma ação noturna acontecerá. Você pode convocar a qualquer hora da noite. Se em uma partida existir o Portador da Tempestade, não haverá Will Solace 💤.
+</value>
+</string>
+<string key="RoleInfoStormbringer">
+<value>
+Você é o Jason Grace 🌩, um filho de Júpiter. Uma vez por jogo, você pode evocar uma terrível tempestade. Na noite em que você convocar, todos os papéis ativos procurarão abrigo em suas casas e nenhuma ação noturna acontecerá. Você pode convocar a qualquer hora apartir da segunda noite.
+</value>
+</string>
+<string key="AskSummon">
+<value>
+Você gostaria de invocar a tempestade hoje à noite?
+</value>
+</string>
+<string key="StormbringerSummon">
+<value>
+O céu da noite está claro e o acampamento está dormindo. Até alguém perceber a luz azul escura e os encantos místicos da casa de {0}. Uma terrível tempestade se aproxima de repente. Todos os aldeões se escondem em suas casas, com muito medo de fazer qualquer coisa além de assistir a tempestade passar.
+</value>
+</string>
+<string key="StormbringerNightOver">
+<value>
+A tempestade acabou e um novo dia começa. O céu está claro como se nada tivesse acontecido e os aldeões começaram a limpar a bagunça que foi feita.
+</value>
+</string>
+<string key="Arsonist">
+<value>Nero 🔥</value>
+</string>
+<string key="RoleInfoArsonist">
+<value>
+Você é o Nero 🔥! As histórias de horror que adultos dizem às crianças para assustá-los contam histórias de seus feitos. Você tem uma receita secreta para uma solução inflamável que pode queimar cidades inteiras! Cada noite, você pode molhar a casa de alguém com esta solução. Se pelo menos uma casa estiver encharcada, você pode acender todas as chamas apagadas, queimando os campistas lá dentro.
+</value>
+</string>
+<string key="AboutArsonist">
+<value>
+Você é o Nero 🔥! As histórias de horror que adultos dizem às crianças para assustá-los contam histórias de seus feitos. Você tem uma receita secreta para uma solução inflamável que pode queimar cidades inteiras! Cada noite, você pode molhar a casa de alguém com esta solução. Se pelo menos uma casa estiver encharcada, você pode acender todas as chamas apagadas, queimando os campistas lá dentro.
+</value>
+</string>
+<string key="ArsonistQuestion">
+<value>
+Você gostaria de jogar gasolina na casa de quem esta noite? Se pelo menos uma casa estiver encharcada, você também pode acender a casa encharcada em chamas!
+</value>
+</string>
+<string key="Light">
+<value>Acender</value>
+</string>
+<string key="Doused">
+<value>
+Conseguiu com sucesso jogar gasolina na casa de {0}!
+</value>
+</string>
+<string key="GuardSavedYouFromFire">
+<value>
+A sensação de calor e a falta de oxigênio te acordam à noite! Há fogo em todos os lugares ao seu redor! O pânico supera você, mas você já está muito fraco por inalação de fumaça. Quando tudo fica tonto e você começa a ficar inconsciente, você percebe alguém com asas brancas e brilhantes invadindo sua casa, puxando você para fora na hora certa.
+</value>
+</string>
+<string key="GuardSavedFromFire">
+<value>
+Acontece que você pega {0} na hora certa. Você nunca viu um fogo quieto assim, no entanto, você decide ajudar {0} com isso de qualquer maneira.
+</value>
+</string>
+<string key="Burn">
+<value>
+A sensação de calor e a falta de oxigênio te acordam à noite! Há fogo em todos os lugares ao seu redor! O pânico supera você, mas você já está muito fraco pela inalação de fumaça. Como tudo se torna leve e tonto, você ouve risadas do lado de fora antes de desmaiar e morrer.
+</value>
+</string>
+<string key="Burning">
+<value>
+Quando o acampamento acorda, alguém percebe que a casa de {0} não é mais o que costumava ser! Em vez de uma casa totalmente funcional, há apenas cinzas e fumaça sobrando. {0} morreu nas chamas.
+</value>
+</string>
+<string key="Clean">
+<value>
+Quando você protege {0} você percebe um cheiro estranho ao redor da casa. Você olha em volta e vê um líquido estranho sendo derramado sobre a casa por alguém. Achando que seria perigoso você decidir limpar a bagunça.
+</value>
+</string>
+<string key="ArsonistWin">
+<value>
+Somente o crepitar do fogo pode ser ouvido enquanto os restos do acampamento estão queimando. O Nero senta-se por perto, sorrindo satisfeito como ele é o único sobrevivente e vence.
+</value>
+</string>
+<string key="Cultus">
+<value>Lótus</value>
+</string>
+<string key="CultismHelp">
+<value>
+Em um jogo de Lótus é a Acampamento contra os Comedores de Lótus. Sem Lestrigões, sem Alex Fierro, sem Empousa, apenas o poder da persuasão contra o Acampamento.
+</value>
+</string>
+<string key="AllowCultus">
+<value>Permitir Modo Cultus</value>
+</string>
+<string key="AllowCultusQ">
+<value>Deseja ativar o Modo Cultus?\nAtual: {0}</value>
+</string>
+<string key="AllowCultusA">
+<value>Permitir Modo Cultus está definido como {0}</value>
+</string>
+<string key="NoLoneBad">
+<value>Vitória de inimigos solitários juntos</value>
+</string>
+<string key="NoLoneBadQ">
+<value>
+Você quer ativar a vitória de inimigos solitários (Empousa, Sereia, Nero, etc.) juntos?\nAtual: {0}
+</value>
+</string>
+<string key="NoLoneBadA">
+<value>
+Permitir a vitória de inimigos solitários está definido como {0}
+</value>
+</string>
+<string key="DisabledCultus">
+<value>
+O modo cultus foi desativado pelos administradores do grupo.
+</value>
+</string>
+<string key="ModeInfo">
+<value>
+Pode usar o comando /modeinfo para ter informação do modo de jogo que está sendo jogado!
+</value>
+</string>
+<string key="PlayerStartedCultusGame">
+<value>
+Pronto para expalhar a palavra da Seita? {0} iniciou um partida no modo cultus! Aperte o botão abaixo para jogar!
+</value>
+</string>
+<string key="EnemiesWin">
+<value>
+Trabalho em equipe é a chave para a vitória! Os inimigos que costumavam trabalhar sozinhos agora venceram juntos!
+</value>
+</string>
+<string key="BurningHarlot">
+<value>
+{0} querendo queimar fazendo amor na última noite, mas parece que seu parceiro não queria esse tipo de amor. O resto do cadáver da Piper McLean foi achado próximo ao seu coração, queimado até as cinzas.
+</value>
+</string>
+<string key="ThiefDiesByArsonist">
+<value>
+Você queria roubar de {0} esta noite, mas antes de você puder começar seu trabalho {0} despeja um líquido de cheiro estranho e acende. Você morre de uma terrível e dolorosa morte.
+</value>
+</string>
+<string key="ThiefDiesByArsonistGroup">
+<value>
+O Connor Stoll {0} queria roubar da pessoa errada na última noite. Seu cadáver foi encontrado, queimado até as cinzas, próximo ao centro do Acampamento.
+</value>
+</string>
+<string key="CultDiesByArsonistGroup">
+<value>
+Os Comedores de Lótus tentaram converter o Nero na última noite, mas ele apenas conhece a flor chamado "Fogo". {0} teve que pagar o preço e foi queimado vivo.
+</value>
+</string>
+<string key="HiddenAction" deprecated="true">
+<value>
+Você veio em busca da ação escondida de hoje! A ação escondida era: {0}. Seu progresso diário foi adicionado para o banco de dados para todos os jogadores. Se você conseguir 3 das 5 ações escondidas, ações que trocam diaraiamente de 31-10-2019 até 04-11-2019, você conseguirá a conquista de Halloween deste ano!
+</value>
+</string>
+<string key="HiddenAction1" deprecated="true">
+<value>Ter três Videntes em um jogo</value>
+</string>
+<string key="HiddenAction2" deprecated="true">
+<value>Mistico marcar um Lobisomem</value>
+</string>
+<string key="HiddenAction3" deprecated="true">
+<value>
+O casal morre na primeira noite (não no modo romance!)
+</value>
+</string>
+<string key="HiddenAction4" deprecated="true">
+<value>
+O Alex Fierro ganhar um jogo com ao menos 20 pessoas
+</value>
+</string>
+<string key="HiddenAction5" deprecated="true">
+<value>
+Os aldeões perdem em um jogo no modo trouxa/foolish
+</value>
+</string>
+<string key="Achievement89Name">
+<value>Feliz Halloween 2019</value>
+</string>
+<string key="Achievement89Descr">
+<value>
+Descubra ao menos três ações escondidas do Evento de Halloween.
+</value>
+</string>
+<string key="Achievement90Name">
+<value>Feliz Por Ter Você 2020</value>
+</string>
+<string key="Achievement90Descr">
+<value>
+Ter jogado o jogo para celebrar o segundo aniver do Black Werewolf
+</value>
+</string>
+</strings>
